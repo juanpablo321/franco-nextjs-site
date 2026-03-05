@@ -1,65 +1,319 @@
 import Image from "next/image";
+import Link from "next/link";
+import {
+  ShoppingCart,
+  Globe,
+  Target,
+  BarChart3,
+  TrendingUp,
+  Award,
+  CheckCircle2,
+  BookOpen,
+  MapPin,
+  Linkedin,
+  Phone,
+} from "lucide-react";
+import { SITE_CONFIG, SERVICES, STATS } from "@/lib/constants";
+import type { Metadata } from "next";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Juan Pablo Franco | Estratega de Expansión Digital | eCommerce Colombia",
+  description:
+    "Transformando negocios a través de estrategias de comercio digital basadas en datos en Colombia y el mundo. +15 años de experiencia en eCommerce, VTEX y marketplaces B2B.",
+  alternates: {
+    canonical: SITE_CONFIG.url,
+  },
+};
+
+const iconMap: Record<string, React.ElementType> = {
+  ShoppingCart,
+  Globe,
+  Target,
+  BarChart3,
+  TrendingUp,
+  Award,
+};
+
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      {/* JSON-LD Structured Data - Person + ProfessionalService */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "ProfessionalService",
+              name: SITE_CONFIG.name,
+              description: SITE_CONFIG.description,
+              url: SITE_CONFIG.url,
+              telephone: SITE_CONFIG.whatsappNumber,
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Bogotá",
+                addressRegion: "DC",
+                addressCountry: "CO",
+              },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: 4.711,
+                longitude: -74.0721,
+              },
+              sameAs: [SITE_CONFIG.linkedinUrl],
+              knowsAbout: [
+                "eCommerce",
+                "VTEX",
+                "Marketplaces B2B",
+                "Transformación Digital",
+                "Marketing Digital B2B",
+                "Generación de Leads",
+              ],
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Juan Pablo Franco",
+              jobTitle: "Estratega de Expansión Digital",
+              url: SITE_CONFIG.url,
+              sameAs: [SITE_CONFIG.linkedinUrl],
+              worksFor: {
+                "@type": "Organization",
+                name: "Juan Pablo Franco Consultoría",
+              },
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Bogotá",
+                addressCountry: "CO",
+              },
+            },
+          ]),
+        }}
+      />
+
+      {/* Hero Section */}
+      <section
+        id="hero"
+        className="min-h-screen relative overflow-hidden text-white section-purple"
+      >
+        <div className="container relative z-10 flex items-end min-h-screen pt-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end w-full">
+            <div className="space-y-6 lg:space-y-8 pb-0 lg:pb-24 pt-20">
+              <h1 className="text-white text-center lg:text-left">
+                Estratega de Expansión Digital
+              </h1>
+              <p className="text-lg md:text-2xl text-white/90 leading-relaxed text-center lg:text-left">
+                Transformando negocios a través de estrategias de comercio
+                digital basadas en datos en Colombia y el mundo.
+              </p>
+              <div className="pt-4 pb-4 flex justify-center lg:justify-start">
+                <Link href="/#contacto" className="btn-outline text-lg px-8 py-4">
+                  Agendar Consultoría Gratuita
+                </Link>
+              </div>
+              <div className="lg:hidden flex justify-center pt-4">
+                <Image
+                  src={SITE_CONFIG.heroImage}
+                  alt="Juan Pablo Franco"
+                  width={320}
+                  height={400}
+                  priority
+                  className="w-auto object-contain object-bottom drop-shadow-2xl"
+                  style={{ height: "320px" }}
+                />
+              </div>
+            </div>
+            <div className="hidden lg:flex justify-end items-end self-end">
+              <Image
+                src={SITE_CONFIG.heroImage}
+                alt="Juan Pablo Franco - Estratega de Expansión Digital"
+                width={600}
+                height={900}
+                priority
+                className="w-auto object-contain object-bottom drop-shadow-2xl"
+                style={{ height: "calc(100vh - 80px)", maxHeight: "900px" }}
+              />
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Trust Stats */}
+      <section className="section-white py-16" aria-label="Estadísticas">
+        <div className="container">
+          <div className="grid grid-cols-3 gap-8 max-w-4xl mx-auto text-center">
+            {STATS.map((stat) => (
+              <div key={stat.label}>
+                <p className="text-5xl font-bold text-primary mb-2">
+                  {stat.value}
+                </p>
+                <p className="text-base text-muted-foreground">{stat.label}</p>
+              </div>
+            ))}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="section-gray section" aria-label="Sobre Mí">
+        <div className="container">
+          <div className="max-w-4xl mx-auto space-y-8">
+            <div className="text-center">
+              <p className="section-label text-primary mb-4">Sobre Mí</p>
+              <h2>Experto en Comercio Digital y Marketplaces</h2>
+            </div>
+            <div className="space-y-6 text-center">
+              <p className="text-xl leading-relaxed">
+                Con más de 15 años de experiencia en eCommerce y transformación
+                digital, me especializo en implementaciones VTEX, desarrollo de
+                marketplaces B2B y estrategias de generación de leads para
+                empresas en Colombia y el mundo.
+              </p>
+              <p className="text-xl leading-relaxed">
+                He liderado proyectos para marcas globales como Coca-Cola,
+                Nestlé, Unilever y Amazon, generando resultados medibles en
+                crecimiento de ventas, optimización de procesos y expansión de
+                mercado.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
+              {[
+                { icon: Target, title: "Enfoque en Resultados", desc: "Estrategias basadas en datos con KPIs claros y ROI medible" },
+                { icon: TrendingUp, title: "Crecimiento Escalable", desc: "Soluciones diseñadas para crecer con tu negocio" },
+                { icon: Award, title: "Experiencia Global", desc: "Proyectos exitosos en 3 continentes con marcas líderes" },
+              ].map((item) => (
+                <div key={item.title} className="text-center space-y-4">
+                  <div className="icon-circle-lg bg-primary/10 mx-auto">
+                    <item.icon className="w-8 h-8 text-primary" />
+                  </div>
+                  <h3 className="text-2xl font-semibold">{item.title}</h3>
+                  <p className="text-muted-foreground">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section id="servicios" className="section-white section" aria-label="Servicios">
+        <div className="container">
+          <div className="text-center mb-16">
+            <p className="section-label text-primary mb-4">Servicios</p>
+            <h2>Soluciones de Comercio Digital</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {SERVICES.map((service) => {
+              const IconComponent = iconMap[service.icon];
+              return (
+                <article key={service.title} className="card">
+                  <div className="space-y-4">
+                    <div className="icon-circle bg-primary/10">
+                      {IconComponent && <IconComponent className="w-6 h-6 text-primary" />}
+                    </div>
+                    <h3 className="text-2xl font-semibold">{service.title}</h3>
+                    <p className="text-muted-foreground">{service.description}</p>
+                    <ul className="space-y-2 text-base">
+                      {service.features.map((feature) => (
+                        <li key={feature} className="flex items-start gap-2">
+                          <CheckCircle2 size={18} className="mt-1 flex-shrink-0 text-primary" />
+                          <span>{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Glosario Teaser */}
+      <section className="section-white section" aria-label="Glosario">
+        <div className="container">
+          <div className="text-center mb-12">
+            <p className="section-label text-primary mb-4">Glosario</p>
+            <h2 className="mb-6">Diccionario de Marketing Digital</h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Explora nuestro glosario completo con más de 70 términos esenciales de
+              marketing digital, eCommerce y transformación digital.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-3xl mx-auto mb-12">
+            {["A/B Testing", "eCommerce", "SEO", "Lead Generation", "Omnichannel", "ROI", "CRO", "VTEX"].map((term) => (
+              <div key={term} className="px-4 py-3 rounded-lg bg-primary/5 border border-primary/10 text-center">
+                <span className="text-sm font-medium text-primary">{term}</span>
+              </div>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link href="/glosario" className="btn-primary text-lg">
+              <BookOpen className="w-5 h-5" />
+              Explorar Glosario Completo
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contacto" className="section section-purple" aria-label="Contacto">
+        <div className="container">
+          <div className="text-center mb-16">
+            <p className="section-label text-white/80 mb-4">Contacto</p>
+            <h2 className="text-white">Trabajemos Juntos</h2>
+            <p className="text-xl text-white/90 mt-6 max-w-2xl mx-auto">
+              ¿Listo para llevar tu negocio al siguiente nivel? Agenda una consulta gratuita de 30 minutos.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div className="bg-white rounded-lg overflow-hidden" style={{ minHeight: "660px" }}>
+              <iframe
+                src={`${SITE_CONFIG.hubspotMeetingUrl}?embed=true`}
+                width="100%"
+                height="660"
+                frameBorder="0"
+                style={{ border: "none", minHeight: "660px" }}
+                title="Agendar Reunión con Juan Pablo Franco"
+                allow="camera; microphone"
+                loading="lazy"
+              />
+            </div>
+            <div className="space-y-8 text-white">
+              <div>
+                <h3 className="text-2xl font-semibold mb-6">Información de Contacto</h3>
+                <div className="space-y-6">
+                  <div className="flex items-start gap-4">
+                    <Phone size={24} className="flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="text-sm font-semibold uppercase tracking-wider mb-2 text-white/80">Whatsapp</p>
+                      <a href={SITE_CONFIG.whatsappUrl} target="_blank" rel="noopener noreferrer" className="text-xl hover:underline">
+                        {SITE_CONFIG.whatsappNumber}
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <MapPin size={24} className="flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="text-sm font-semibold uppercase tracking-wider mb-2 text-white/80">Ubicación</p>
+                      <p className="text-xl">{SITE_CONFIG.location}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <Linkedin size={24} className="flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="text-sm font-semibold uppercase tracking-wider mb-2 text-white/80">LinkedIn</p>
+                      <a href={SITE_CONFIG.linkedinUrl} target="_blank" rel="noopener noreferrer" className="text-xl hover:underline">
+                        /in/juanpablo321
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
