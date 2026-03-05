@@ -1,0 +1,30 @@
+# Juan Pablo Franco - Estratega de Expansión Digital
+
+> Juan Pablo Franco es un consultor experto en eCommerce, VTEX, marketplaces B2B y transformación digital con más de 15 años de experiencia, basado en Bogotá, Colombia. Su sitio web ofrece artículos de blog, un glosario de términos de marketing digital y detalles sobre sus servicios profesionales de consultoría.
+
+Este sitio está diseñado para ayudar a empresas B2B a navegar y tener éxito en el entorno del comercio digital. El contenido es escrito por un experto en la materia y se actualiza regularmente con artículos sobre tendencias en eCommerce, inteligencia artificial aplicada a negocios, y estrategias de marketing B2B.
+
+## Páginas Principales
+
+- [Página de Inicio](https://franco.com.co/): Resumen de servicios, propuesta de valor y estadísticas clave.
+- [Sobre Mí](https://franco.com.co/sobre-mi): Biografía profesional, experiencia laboral y clientes destacados.
+- [Contacto](https://franco.com.co/contacto): Información de contacto y formulario para agendar consultoría gratuita.
+
+## Fuentes de Conocimiento
+
+- [Blog](https://franco.com.co/blog): Artículos en profundidad sobre estrategias de eCommerce, marketing B2B, inteligencia artificial y transformación digital.
+- [Glosario de Marketing Digital](https://franco.com.co/glosario): Definiciones de más de 70 términos clave en marketing digital y comercio electrónico.
+
+## Servicios
+
+- [Consultoría eCommerce](https://franco.com.co/#servicios): Implementación y optimización de plataformas de comercio electrónico, especializado en VTEX.
+- [Expansión Internacional de eCommerce](https://franco.com.co/#servicios): Estrategias de entrada a nuevos mercados y operaciones cross-border.
+- [Generación de Leads B2B](https://franco.com.co/#servicios): Marketing digital y automatización para leads calificados.
+- [Análisis de Datos y BI](https://franco.com.co/#servicios): Dashboards y análisis para toma de decisiones basadas en datos.
+- [Estrategia Omnicanal](https://franco.com.co/#servicios): Integración de canales online y offline.
+- [Transformación Digital](https://franco.com.co/#servicios): Acompañamiento en procesos de digitalización empresarial.
+
+## Optional
+
+- [Política de Privacidad](https://franco.com.co/privacidad)
+- [Términos y Condiciones](https://franco.com.co/terminos)
