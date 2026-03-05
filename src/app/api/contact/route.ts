@@ -33,7 +33,7 @@ export async function POST(request: NextRequest) {
 
     // Enviar correo al administrador
     const adminResponse = await resend.emails.send({
-      from: 'Formulario de Contacto <onboarding@resend.dev>',
+      from: 'Formulario de Contacto <contacto@franco.com.co>',
       to: process.env.CONTACT_EMAIL || 'juanpablo321@gmail.com',
       subject: `Nuevo mensaje de contacto: ${body.subject}`,
       html: `
@@ -65,7 +65,7 @@ export async function POST(request: NextRequest) {
 
     // Enviar correo de confirmación al usuario
     await resend.emails.send({
-      from: 'Juan Pablo Franco <onboarding@resend.dev>',
+      from: 'Juan Pablo Franco <hola@franco.com.co>',
       to: body.email,
       subject: 'Hemos recibido tu mensaje',
       html: `
