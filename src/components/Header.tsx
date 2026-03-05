@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS, SITE_CONFIG } from "@/lib/constants";
@@ -71,14 +70,14 @@ export default function Header() {
             href="/"
             className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            <Image
-              src="/logo.png"
+            <img
+              src={isScrolled ? "/logo-dark.svg" : "/logo.svg"}
               alt="Juan Pablo Franco"
               width={40}
               height={40}
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 object-contain transition-all"
             />
-            <span className={`text-lg font-bold transition-colors hidden sm:inline ${
+            <span className={`text-lg font-bold transition-colors ${
               isScrolled ? "text-foreground" : "text-white"
             }`}>
               {SITE_CONFIG.name}
