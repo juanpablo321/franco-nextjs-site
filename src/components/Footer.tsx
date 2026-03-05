@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Phone, MapPin, Linkedin } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/constants";
 
@@ -10,16 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <Image
-                src="/logo-dark.svg"
-                alt="Juan Pablo Franco"
-                width={40}
-                height={40}
-                className="w-10 h-10 object-contain"
-              />
-              <h3 className="text-xl font-bold">{SITE_CONFIG.name}</h3>
-            </div>
+            <h3 className="text-xl font-bold mb-4">{SITE_CONFIG.name}</h3>
             <p className="text-muted-foreground text-base leading-relaxed">
               Estratega de Expansión Digital especializado en eCommerce, VTEX y
               desarrollo de marketplaces B2B.

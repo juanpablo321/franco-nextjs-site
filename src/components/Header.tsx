@@ -68,16 +68,9 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            className="hover:opacity-80 transition-opacity"
           >
-            <img
-              src={isScrolled ? "/logo-dark.svg" : "/logo.svg"}
-              alt="Juan Pablo Franco"
-              width={40}
-              height={40}
-              className="w-10 h-10 object-contain transition-all"
-            />
-            <span className={`text-lg font-bold transition-colors ${
+            <span className={`text-xl font-bold transition-colors ${
               isScrolled ? "text-foreground" : "text-white"
             }`}>
               {SITE_CONFIG.name}
