@@ -3,7 +3,7 @@ title: "Análisis Predictivo: Anticipando Oportunidades de Venta B2B"
 excerpt: "Utiliza el poder del análisis predictivo para identificar oportunidades de venta antes que tu competencia."
 category: "Inteligencia Artificial"
 date: "5 de Febrero, 2026"
-image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=675&fit=crop&q=80"
+image: "/uploads/analisis-predictivo-ventas-b2b.jpg"
 keywords:
   - "análisis predictivo"
   - "forecasting ventas"
