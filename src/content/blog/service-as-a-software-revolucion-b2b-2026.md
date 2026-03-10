@@ -82,18 +82,18 @@ Service-as-a-Software, SaS, IA agéntica, futuro del SaaS, outcome-based pricing
 
 ### Referencias
 
-[1] Nielsen, J. (2024, 19 de diciembre). *Service as a Software: The New SaaS*. UX Tigers.
+[1] Nielsen, J. (2024, 19 de diciembre). [*Service as a Software: The New SaaS*](https://www.uxtigers.com/post/service-as-software). UX Tigers.
 
-[2] Garg, A., & Gupta, J. (2025, 3 de julio). *The $4.6T Services-as-Software opportunity: Lessons from the first year*. Foundation Capital.
+[2] Garg, A., & Gupta, J. (2025, 3 de julio). [*The $4.6T Services-as-Software opportunity: Lessons from the first year*](https://foundationcapital.com/the-4-6t-service-as-software-opportunity-lessons-from-year-one/). Foundation Capital.
 
-[3] Solis, B. (2026, 10 de enero). *When AI Becomes the UI: Business logic moves to the AI tier, dashboards fade, and agents become the interface*. Medium.
+[3] Solis, B. (2026, 10 de enero). [*When AI Becomes the UI: Business logic moves to the AI tier, dashboards fade, and agents become the interface*](https://medium.com/@briansolis/when-ai-becomes-the-ui-business-logic-moves-to-the-ai-tier-dashboards-fade-and-agents-become-the-1df1698b96ea). Medium.
 
-[4] AlixPartners. (2025, 29 de mayo). *Farewell, SaaS: AI is the future of enterprise software*.
+[4] AlixPartners. (2025, 29 de mayo). [*Farewell, SaaS: AI is the future of enterprise software*](https://www.alixpartners.com/insights/102kcw9/farewell-saas-ai-is-the-future-of-enterprise-software/).
 
-[5] Immerman, A., & Rodriguez, S. (2026, 2 de marzo). *Good news: AI Will Eat Application Software*. Andreessen Horowitz (a16z).
+[5] Immerman, A., & Rodriguez, S. (2026, 2 de marzo). [*Good news: AI Will Eat Application Software*](https://a16z.com/good-news-ai-will-eat-application-software/). Andreessen Horowitz (a16z).
 
-[6] Mahroum, S. (2026, 5 de enero). *How AI is changing the nature of economic goods*. LSE Business Review.
+[6] Mahroum, S. (2026, 5 de enero). [*How AI is changing the nature of economic goods*](https://blogs.lse.ac.uk/businessreview/2026/01/05/how-ai-is-changing-the-nature-of-economic-goods/). LSE Business Review.
 
 [7] Investigación paralela interna sobre adopción empresarial de Service-as-a-Software (Datos agregados de Superside, Darwin AI y Avantia).
 
-[8] Thomson Reuters Institute. (2026, 9 de febrero). *2026 AI in Professional Services Report*.
+[8] Thomson Reuters Institute. (2026, 9 de febrero). [*2026 AI in Professional Services Report*](https://www.thomsonreuters.com/en-us/posts/technology/ai-in-professional-services-report-2026/).
