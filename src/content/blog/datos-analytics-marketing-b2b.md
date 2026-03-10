@@ -3,7 +3,7 @@ title: "Datos y Analytics: Optimizando tu Marketing B2B"
 excerpt: "Utiliza datos y analytics para tomar decisiones informadas y optimizar continuamente tu estrategia de marketing."
 category: "Marketing Digital B2B"
 date: "26 de Enero, 2026"
-image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=675&fit=crop&q=85"
+image: "/uploads/datos-analytics-marketing-b2b.jpg"
 keywords:
   - "marketing analytics"
   - "datos marketing"
