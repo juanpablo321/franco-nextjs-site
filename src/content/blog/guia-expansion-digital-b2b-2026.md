@@ -3,7 +3,7 @@ title: "Guía Completa de Expansión Digital para Empresas B2B en 2026"
 excerpt: "Roadmap completo con estrategias probadas para empresas que buscan expandirse digitalmente y transformar su modelo de negocio B2B."
 category: "Expansión Digital"
 date: "13 de Febrero, 2026"
-image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=675&fit=crop"
+image: "/uploads/guia-expansion-digital-b2b-2026.jpg"
 keywords:
   - "expansión digital"
   - "transformación digital B2B"
