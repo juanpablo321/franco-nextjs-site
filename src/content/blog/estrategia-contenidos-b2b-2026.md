@@ -10,7 +10,7 @@ keywords:
   - "estrategia contenidos"
 ---
 
-# Estrategia de Contenidos B2B que Genera Leads Calificados
+## Estrategia de Contenidos B2B que Genera Leads Calificados
 
 El content marketing se ha consolidado como uno de los pilares fundamentales de las estrategias de marketing B2B exitosas. En un entorno donde los compradores empresariales realizan extensas investigaciones independientes antes de contactar a vendedores, el contenido de calidad se ha convertido en el principal mecanismo para atraer, educar y convertir prospectos calificados. Sin embargo, crear contenido efectivo que realmente genere leads calificados requiere mucho más que simplemente publicar artículos de blog regularmente.
 

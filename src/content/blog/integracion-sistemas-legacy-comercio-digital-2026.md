@@ -17,7 +17,7 @@ keywords:
   - "gestión del cambio organizacional"
 ---
 
-# ¿Por Qué Fracasan las Integraciones de Sistemas Legacy con Plataformas de Comercio Digital? El Problema No Es Técnico
+## ¿Por Qué Fracasan las Integraciones de Sistemas Legacy con Plataformas de Comercio Digital? El Problema No Es Técnico
 
 **Integrar sistemas antiguos con plataformas de comercio digital** es uno de los desafíos más frecuentes —y más subestimados— en la transformación digital de empresas B2B. La mayoría de organizaciones asume que se trata de un reto puramente tecnológico: conectar APIs, configurar middleware, sincronizar bases de datos. Sin embargo, después de más de 15 años liderando proyectos de integración para empresas en Colombia y Latinoamérica, puedo afirmar con certeza que **el verdadero obstáculo no es técnico, sino cultural y organizacional**.
 

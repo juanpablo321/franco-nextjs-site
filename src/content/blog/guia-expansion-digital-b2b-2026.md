@@ -10,7 +10,7 @@ keywords:
   - "estrategia digital empresarial"
 ---
 
-# Guía Completa de Expansión Digital para Empresas B2B en 2026
+## Guía Completa de Expansión Digital para Empresas B2B en 2026
 
 La **expansión digital** se ha convertido en una necesidad imperativa para las empresas B2B que buscan mantenerse competitivas en el mercado global. En 2026, la transformación digital ya no es una opción, sino un requisito fundamental para el crecimiento sostenible y la supervivencia empresarial.
 

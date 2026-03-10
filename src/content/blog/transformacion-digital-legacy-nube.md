@@ -10,7 +10,7 @@ keywords:
   - "infraestructura digital"
 ---
 
-# Transformación Digital: Del Legacy System a la Nube
+## Transformación Digital: Del Legacy System a la Nube
 
 La transformación de sistemas legacy a arquitecturas cloud modernas representa uno de los desafíos técnicos y organizacionales más significativos que enfrentan las empresas establecidas. Estos sistemas heredados, a menudo construidos hace décadas, continúan ejecutando procesos críticos de negocio pero se han convertido en obstáculos para la innovación, la agilidad y la competitividad.
 

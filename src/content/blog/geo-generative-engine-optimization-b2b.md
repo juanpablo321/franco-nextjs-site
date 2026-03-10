@@ -17,7 +17,7 @@ keywords:
   - "estrategia digital 2026"
 ---
 
-# GEO (Generative Engine Optimization): Cómo Posicionar tu Marca B2B en la Era de la Búsqueda por IA
+## GEO (Generative Engine Optimization): Cómo Posicionar tu Marca B2B en la Era de la Búsqueda por IA
 
 El campo de batalla por la visibilidad digital ha cambiado. Durante años, el SEO ha sido el rey indiscutible, un juego de palabras clave, backlinks y algoritmos que las empresas B2B han aprendido a dominar. Pero en 2026, un nuevo poder ha emergido, uno que no se basa en una lista de resultados, sino en una conversación. Hablamos de los motores de respuesta impulsados por IA como ChatGPT, Gemini y Perplexity, y la nueva disciplina para conquistarlos: la **Optimización para Motores Generativos** o **GEO (Generative Engine Optimization)**.
 

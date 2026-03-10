@@ -10,7 +10,7 @@ keywords:
   - "HubSpot"
 ---
 
-# Marketing Automation B2B: Herramientas y Mejores Prácticas
+## Marketing Automation B2B: Herramientas y Mejores Prácticas
 
 La automatización del marketing se ha convertido en una capacidad fundamental para empresas B2B que buscan escalar sus esfuerzos de marketing mientras mantienen o mejoran la personalización y relevancia. Las plataformas modernas de marketing automation permiten a las empresas nurturar leads a través de ciclos de compra complejos, personalizar experiencias a escala, y medir el impacto del marketing en resultados de negocio con precisión sin precedentes.
 

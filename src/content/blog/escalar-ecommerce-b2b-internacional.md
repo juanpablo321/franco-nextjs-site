@@ -10,7 +10,7 @@ keywords:
   - "globalización digital"
 ---
 
-# Cómo Escalar tu eCommerce B2B Internacionalmente
+## Cómo Escalar tu eCommerce B2B Internacionalmente
 
 La expansión internacional representa una de las oportunidades de crecimiento más significativas para las empresas de eCommerce B2B, pero también uno de los desafíos más complejos. A diferencia de la expansión doméstica, donde las empresas operan dentro de marcos regulatorios, culturales y logísticos familiares, la internacionalización requiere navegar múltiples jurisdicciones, idiomas, monedas y expectativas de clientes.
 
