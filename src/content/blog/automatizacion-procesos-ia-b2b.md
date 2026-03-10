@@ -3,7 +3,7 @@ title: "Automatización de Procesos con IA en Empresas B2B"
 excerpt: "Cómo la automatización inteligente está transformando operaciones y liberando tiempo para actividades estratégicas."
 category: "Inteligencia Artificial"
 date: "4 de Febrero, 2026"
-image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=1200&h=675&fit=crop"
+image: "/uploads/automatizacion-procesos-ia-b2b.jpg"
 keywords:
   - "automatización procesos"
   - "RPA"
