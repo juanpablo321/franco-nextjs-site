@@ -13,10 +13,8 @@ export const SITE_CONFIG = {
   whatsappUrl: "https://wa.me/573235812748",
   location: "Bogotá D.C., Colombia",
   hubspotMeetingUrl: "https://meetings.hubspot.com/juanpablo321",
-  heroImage:
-    "https://files.manuscdn.com/user_upload_by_module/session_file/310519663334573136/sObOtItWrUXUypjv.webp",
-  heroImageFallback:
-    "https://files.manuscdn.com/user_upload_by_module/session_file/310519663334573136/tqHoMdHlBsLGwZGk.png",
+  heroImage: "/uploads/hero-illustration.webp",
+  heroImageFallback: "/uploads/hero-illustration.png",
 } as const;
 
 export const NAV_LINKS = [

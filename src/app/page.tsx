@@ -114,9 +114,9 @@ export default function HomePage() {
               <div className="lg:hidden flex justify-center pt-4">
                 <Image
                   src={SITE_CONFIG.heroImage}
-                  alt="Juan Pablo Franco"
+                  alt="Expansión Digital B2B - eCommerce, Analytics y Crecimiento Global"
                   width={320}
-                  height={400}
+                  height={480}
                   priority
                   className="w-auto object-contain object-bottom drop-shadow-2xl"
                   style={{ height: "320px" }}
@@ -126,7 +126,7 @@ export default function HomePage() {
             <div className="hidden lg:flex justify-end items-end self-end">
               <Image
                 src={SITE_CONFIG.heroImage}
-                alt="Juan Pablo Franco - Estratega de Expansión Digital"
+                alt="Expansión Digital B2B - eCommerce, Analytics y Crecimiento Global"
                 width={600}
                 height={900}
                 priority
