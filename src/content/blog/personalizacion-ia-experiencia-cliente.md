@@ -12,7 +12,7 @@ keywords:
 
 ## Personalización con IA: El Futuro de la Experiencia del Cliente
 
-La personalización impulsada por inteligencia artificial representa un cambio de paradigma en cómo las empresas B2B interactúan con sus clientes. Ya no se trata simplemente de dirigirse a los clientes por su nombre en un email o mostrar productos relacionados basándose en compras anteriores. La personalización moderna con IA crea experiencias verdaderamente individualizadas que se adaptan dinámicamente al contexto, comportamiento y necesidades específicas de cada cliente empresarial.
+La [personalización impulsada por inteligencia artificial](/blog/ia-agentica-marketing-b2b-2026) representa un cambio de paradigma en cómo las [empresas B2B](/glosario/b2b-business-to-business) interactúan con sus clientes. Ya no se trata simplemente de dirigirse a los clientes por su nombre en un email o mostrar productos relacionados basándose en compras anteriores. La [personalización moderna con IA](/blog/sistemas-ia-multi-agente-marketing-b2b-2026) crea experiencias verdaderamente individualizadas que se adaptan dinámicamente al contexto, comportamiento y necesidades específicas de cada cliente empresarial.
 
 ## De la Segmentación a la Individualización
 
@@ -26,9 +26,9 @@ Esta transición es particularmente importante en B2B, donde cada cliente empres
 
 La personalización efectiva con IA requiere datos ricos y diversos sobre cada cliente. Las empresas B2B exitosas están consolidando datos de múltiples fuentes para crear perfiles comprensivos de clientes.
 
-Los **datos transaccionales** incluyen historial de compras, frecuencia de pedidos, valor promedio de transacción, mix de productos, y patrones de compra estacionales. Estos datos proporcionan información sobre qué productos son importantes para el cliente y cómo compran.
+Los **[datos transaccionales](/glosario/average-order-value-aov)** incluyen historial de compras, frecuencia de pedidos, valor promedio de transacción, mix de productos, y patrones de compra estacionales. Estos datos proporcionan información sobre qué productos son importantes para el cliente y cómo compran.
 
-Los **datos de comportamiento digital** capturan cómo los clientes interactúan con propiedades digitales de la empresa: qué páginas visitan, cuánto tiempo pasan en cada página, qué contenido descargan, qué términos de búsqueda utilizan, y qué productos visualizan sin comprar. Este comportamiento revela intención y intereses que pueden no ser evidentes en datos transaccionales.
+Los **[datos de comportamiento digital](/glosario/customer-journey)** capturan cómo los clientes interactúan con propiedades digitales de la empresa: qué páginas visitan, cuánto tiempo pasan en cada página, qué contenido descargan, qué términos de búsqueda utilizan, y qué productos visualizan sin comprar. Este comportamiento revela intención y intereses que pueden no ser evidentes en datos transaccionales.
 
 Los **datos de interacciones** registran comunicaciones con representantes de ventas, tickets de soporte, participación en eventos, respuestas a campañas de marketing, y feedback proporcionado. Estos datos proporcionan contexto sobre la relación y satisfacción del cliente.
 

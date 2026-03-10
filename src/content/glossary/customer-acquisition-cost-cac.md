@@ -22,4 +22,4 @@ references:
     description: "Framework de métricas SaaS que incluye CAC, CAC Payback Period y CAC por canal."
 ---
 
-El CAC mide cuánto cuesta adquirir un nuevo cliente, incluyendo todos los gastos de marketing y ventas. Es una métrica fundamental para evaluar la sostenibilidad del negocio: si el CAC supera al CLV, el modelo no es viable. La relación CLV:CAC ideal es de 3:1 o superior. En eCommerce, el CAC ha aumentado un 60% en los últimos 5 años debido a la mayor competencia por atención digital y los cambios en privacidad (iOS 14.5, eliminación de cookies de terceros).
+El CAC mide cuánto cuesta adquirir un nuevo cliente, incluyendo todos los gastos de marketing y ventas. Es una métrica fundamental para evaluar la sostenibilidad del negocio: si el CAC supera al [CLV](/glosario/customer-lifetime-value-clv), el modelo no es viable. La relación CLV:CAC ideal es de 3:1 o superior. En [eCommerce](/glosario/ecommerce), el CAC ha aumentado un 60% en los últimos 5 años debido a la mayor competencia por atención digital y los cambios en privacidad (iOS 14.5, eliminación de cookies de terceros).

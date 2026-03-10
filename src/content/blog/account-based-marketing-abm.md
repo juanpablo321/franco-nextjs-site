@@ -12,11 +12,11 @@ keywords:
 
 ## Account-Based Marketing (ABM): Guía Completa 2026
 
-El Account-Based Marketing representa un cambio fundamental en cómo las empresas B2B abordan el marketing y las ventas. En lugar del enfoque tradicional de "cast a wide net" que intenta atraer el mayor número posible de leads y luego calificarlos, ABM invierte el embudo: identifica primero las cuentas de mayor valor y luego crea campañas altamente personalizadas diseñadas específicamente para involucrar y convertir esas cuentas objetivo.
+El Account-Based Marketing representa un cambio fundamental en cómo las empresas B2B abordan el marketing y las ventas. En lugar del enfoque tradicional de "cast a wide net" que intenta atraer el mayor número posible de leads y luego calificarlos, ABM invierte el embudo: identifica primero las cuentas de mayor valor y luego crea campañas altamente personalizadas diseñadas específicamente para involucrar y convertir esas [cuentas objetivo](/blog/tendencias-marketing-b2b-2026).
 
 ## La Filosofía del Account-Based Marketing
 
-ABM reconoce una realidad fundamental del negocio B2B: no todos los clientes son igualmente valiosos. En muchas empresas B2B, un pequeño porcentaje de clientes genera la mayoría de los ingresos. El principio de Pareto (80/20) frecuentemente se aplica, donde el 20% de los clientes genera el 80% de los ingresos. Dado este hecho, tiene sentido enfocar recursos de marketing y ventas desproporcionadamente en las cuentas con mayor potencial.
+ABM reconoce una realidad fundamental del negocio B2B: no todos los clientes son igualmente valiosos. En muchas empresas B2B, un pequeño porcentaje de clientes genera la mayoría de los ingresos. El principio de Pareto (80/20) frecuentemente se aplica, donde el 20% de los clientes genera el 80% de los ingresos. Dado este hecho, tiene sentido enfocar recursos de [marketing y ventas](/blog/marketing-automation-b2b) desproporcionadamente en las cuentas con mayor potencial.
 
 ABM trata las cuentas individuales como mercados en sí mismas, desarrollando estrategias personalizadas para cada una. Esto requiere alineación estrecha entre marketing y ventas, ya que ambas funciones deben trabajar juntas para identificar cuentas objetivo, desarrollar estrategias de engagement, y ejecutar campañas coordinadas.
 
@@ -26,7 +26,7 @@ El enfoque ABM es particularmente apropiado para empresas con ciclos de venta la
 
 El primer paso crítico en ABM es identificar qué cuentas targetear. Este proceso debe ser riguroso y basado en datos, no simplemente una lista de deseos de cuentas que sería agradable ganar.
 
-El **perfil de cliente ideal (ICP)** define las características de las cuentas que son el mejor fit para los productos o servicios de la empresa. Esto típicamente incluye criterios firmográficos como industria, tamaño de empresa, ubicación geográfica, y tecnologías utilizadas, así como criterios de comportamiento como señales de intención de compra y etapa de madurez digital.
+El **[perfil de cliente ideal (ICP)](/glosario/buyer-persona)** define las características de las cuentas que son el mejor fit para los productos o servicios de la empresa. Esto típicamente incluye criterios firmográficos como industria, tamaño de empresa, ubicación geográfica, y tecnologías utilizadas, así como criterios de comportamiento como [señales de intención](/blog/ai-sdr-tools-prospeccion-leads-b2b-2026) de compra y etapa de madurez digital.
 
 El **análisis de cuentas existentes** examina las características de los mejores clientes actuales para identificar patrones. ¿Qué industrias, tamaños de empresa, o características tienen en común los clientes más rentables y satisfechos? Este análisis puede revelar segmentos objetivo que no habían sido considerados previamente.
 

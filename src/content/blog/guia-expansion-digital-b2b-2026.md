@@ -12,7 +12,7 @@ keywords:
 
 ## Guía Completa de Expansión Digital para Empresas B2B en 2026
 
-La **expansión digital** se ha convertido en una necesidad imperativa para las empresas B2B que buscan mantenerse competitivas en el mercado global. En 2026, la transformación digital ya no es una opción, sino un requisito fundamental para el crecimiento sostenible y la supervivencia empresarial.
+La **expansión digital** se ha convertido en una necesidad imperativa para las empresas B2B que buscan mantenerse competitivas en el mercado global. En 2026, la [transformación digital](/glosario/transformacion-digital) ya no es una opción, sino un requisito fundamental para el crecimiento sostenible y la supervivencia empresarial.
 
 ## ¿Qué es la Expansión Digital B2B?
 
@@ -22,17 +22,17 @@ La expansión digital empresarial implica la integración estratégica de tecnol
 
 ### 1. Plataforma de eCommerce B2B Robusta
 
-El primer paso en cualquier estrategia de expansión digital es contar con una **plataforma de eCommerce B2B** que permita a tus clientes corporativos realizar pedidos de manera eficiente, consultar inventarios en tiempo real y gestionar sus cuentas de forma autónoma. Las plataformas modernas como VTEX, Shopify Plus y Adobe Commerce ofrecen funcionalidades específicas para B2B, incluyendo:
+El primer paso en cualquier estrategia de expansión digital es contar con una **[plataforma de eCommerce B2B](/blog/escalar-ecommerce-b2b-internacional)** que permita a tus clientes corporativos realizar pedidos de manera eficiente, consultar inventarios en tiempo real y gestionar sus cuentas de forma autónoma. Las [plataformas modernas como VTEX](/glosario/vtex), Shopify Plus y Adobe Commerce ofrecen funcionalidades específicas para B2B, incluyendo:
 
 - Catálogos personalizados por cliente
 - Precios diferenciados según volumen y contratos
 - Aprobaciones de compra multinivel
-- Integración con sistemas ERP y CRM
+- Integración con sistemas [ERP](/glosario/erp-enterprise-resource-planning) y [CRM](/glosario/customer-relationship-management-crm)
 - Portales de autoservicio para clientes
 
 ### 2. Automatización de Marketing y Ventas
 
-La **automatización del marketing B2B** permite escalar tus esfuerzos de generación de leads sin aumentar proporcionalmente los recursos. Herramientas como HubSpot, Marketo y Pardot permiten:
+La **[automatización del marketing B2B](/blog/marketing-automation-b2b)** permite escalar tus esfuerzos de generación de leads sin aumentar proporcionalmente los recursos. Herramientas como HubSpot, Marketo y Pardot permiten:
 
 - Nutrir leads de forma automática con contenido relevante
 - Segmentar audiencias basándose en comportamiento y datos firmográficos
@@ -46,19 +46,19 @@ La toma de decisiones basada en datos es fundamental para la expansión digital 
 
 - Consolidar datos de múltiples fuentes (CRM, ERP, eCommerce, marketing)
 - Implementar herramientas de Business Intelligence como Power BI o Tableau
-- Establecer KPIs claros y dashboards en tiempo real
-- Utilizar análisis predictivo para anticipar tendencias
+- Establecer [KPIs claros y dashboards en tiempo real](/glosario/dashboard)
+- Utilizar [análisis predictivo](/blog/analisis-predictivo-ventas-b2b) para anticipar tendencias
 - Garantizar la calidad y gobernanza de datos
 
 ### 4. Experiencia del Cliente Digital
 
-En el entorno B2B, la **experiencia del cliente** es tan importante como en B2C. Los compradores corporativos esperan la misma facilidad de uso que experimentan en sus compras personales. Esto requiere:
+En el entorno B2B, la **[experiencia del cliente](/blog/estrategias-omnicanalidad-b2b)** es tan importante como en B2C. Los compradores corporativos esperan la misma facilidad de uso que experimentan en sus compras personales. Esto requiere:
 
 - Diseño de interfaces intuitivas y responsive
 - Procesos de compra simplificados
 - Contenido educativo y recursos de autoservicio
 - Soporte omnicanal (chat, email, teléfono, video)
-- Personalización basada en el historial y preferencias del cliente
+- [Personalización basada en el historial](/blog/personalizacion-ia-experiencia-cliente) y preferencias del cliente
 
 ## Roadmap de Implementación: 12 Meses para la Transformación
 

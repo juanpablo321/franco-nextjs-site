@@ -19,19 +19,19 @@ keywords:
 
 ## ¿Por Qué Fracasan las Integraciones de Sistemas Legacy con Plataformas de Comercio Digital? El Problema No Es Técnico
 
-**Integrar sistemas antiguos con plataformas de comercio digital** es uno de los desafíos más frecuentes —y más subestimados— en la transformación digital de empresas B2B. La mayoría de organizaciones asume que se trata de un reto puramente tecnológico: conectar APIs, configurar middleware, sincronizar bases de datos. Sin embargo, después de más de 15 años liderando proyectos de integración para empresas en Colombia y Latinoamérica, puedo afirmar con certeza que **el verdadero obstáculo no es técnico, sino cultural y organizacional**.
+**[Integrar sistemas antiguos con plataformas de comercio digital](/blog/escalar-ecommerce-b2b-internacional)** es uno de los desafíos más frecuentes —y más subestimados— en la [transformación digital de empresas B2B](/blog/guia-expansion-digital-b2b-2026). La mayoría de organizaciones asume que se trata de un reto puramente tecnológico: conectar APIs, configurar middleware, sincronizar bases de datos. Sin embargo, después de más de 15 años liderando proyectos de integración para empresas en Colombia y Latinoamérica, puedo afirmar con certeza que **el verdadero obstáculo no es técnico, sino cultural y organizacional**.
 
-Este artículo explora las razones reales por las que fracasan los proyectos de integración de sistemas legacy con plataformas modernas de comercio digital, y ofrece un enfoque práctico para abordar el problema desde su raíz: las personas, los procesos y la gestión del cambio.
+Este artículo explora las razones reales por las que fracasan los proyectos de integración de [sistemas legacy](/blog/transformacion-digital-legacy-nube) con plataformas modernas de comercio digital, y ofrece un enfoque práctico para abordar el problema desde su raíz: las personas, los procesos y la gestión del cambio.
 
 ## La Ilusión del Problema Técnico
 
-Cuando una empresa decide modernizar su operación digital —ya sea implementando VTEX, Shopify, Magento o cualquier plataforma de eCommerce— el primer instinto es contratar desarrolladores, evaluar conectores y diseñar arquitecturas de integración. Se habla de **APIs REST**, **webhooks**, **ETL**, **middleware** y **microservicios**. Todo suena lógico y ordenado en un diagrama de arquitectura.
+Cuando una empresa decide modernizar su operación digital —ya sea implementando VTEX, Shopify, Magento o cualquier plataforma de eCommerce— el primer instinto es contratar desarrolladores, evaluar conectores y diseñar arquitecturas de integración. Se habla de **[APIs REST](/glosario/api-application-programming-interface)**, **webhooks**, **ETL**, **middleware** y **microservicios**. Todo suena lógico y ordenado en un diagrama de arquitectura.
 
 Pero la realidad en el terreno es muy diferente.
 
 > "Todos piensan en herramientas, APIs, conectores y automatización. Nadie habla de las personas que tienen miedo de perder el control." — Juan Pablo Franco
 
-Los sistemas legacy —esos ERP, CRM o plataformas internas que llevan 10, 15 o incluso 20 años funcionando— no son solo software. Son **ecosistemas organizacionales completos** que incluyen:
+Los sistemas legacy —esos [ERP](/glosario/erp-enterprise-resource-planning), CRM o plataformas internas que llevan 10, 15 o incluso 20 años funcionando— no son solo software. Son **ecosistemas organizacionales completos** que incluyen:
 
 - **Procesos operativos** construidos alrededor de las limitaciones del sistema
 - **Conocimiento tácito** que solo existe en la cabeza de ciertos empleados
@@ -176,7 +176,7 @@ No es fácil, pero ahí es donde ocurre la transformación de verdad.
 
 *¿Tu empresa está enfrentando desafíos de integración de sistemas legacy? Agenda una consultoría gratuita con Juan Pablo Franco para diseñar un roadmap de integración centrado en personas, procesos y resultados.*
 
-**Palabras clave:** integración sistemas legacy, transformación digital empresas, migración sistemas antiguos, comercio digital B2B, resistencia al cambio digital, integración ERP eCommerce, modernización sistemas empresariales, change management transformación digital, integración plataformas comercio, gestión del cambio organizacional
+**Palabras clave:** integración sistemas legacy, transformación digital empresas, migración sistemas antiguos, comercio digital B2B, [resistencia al cambio digital](/blog/estrategias-omnicanalidad-b2b), integración ERP eCommerce, modernización sistemas empresariales, change management transformación digital, integración plataformas comercio, gestión del cambio organizacional
 
 ---
 

@@ -22,4 +22,4 @@ references:
     description: "Framework para identificar y maximizar el valor de los mejores clientes basado en modelos probabilísticos de CLV."
 ---
 
-El CLV predice el valor económico total que un cliente generará durante toda su relación con la empresa. Es la métrica más importante para determinar cuánto invertir en adquisición y retención. Según Harvard Business Review, adquirir un nuevo cliente cuesta 5-25x más que retener uno existente. Las empresas con mayor CLV son las que logran crear hábitos de recompra, programas de lealtad efectivos y experiencias excepcionales que generan advocacy.
+El CLV predice el valor económico total que un cliente generará durante toda su relación con la empresa. Es la métrica más importante para determinar cuánto [invertir en adquisición y retención](/blog/datos-analytics-marketing-b2b). Según Harvard Business Review, adquirir un nuevo cliente cuesta 5-25x más que retener uno existente. Las empresas con mayor CLV son las que logran crear hábitos de recompra, [programas de lealtad efectivos](/blog/email-marketing-b2b-nurturing) y [experiencias excepcionales](/blog/personalizacion-ia-experiencia-cliente) que generan advocacy.
