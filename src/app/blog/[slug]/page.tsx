@@ -7,6 +7,7 @@ import { ArrowLeft, Clock, Calendar, Tag } from "lucide-react";
 import { getArticleBySlug, getArticleSlugs } from "@/lib/blog";
 import { SITE_CONFIG } from "@/lib/constants";
 import type { Metadata } from "next";
+import NewsletterForm from "@/components/NewsletterForm";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -172,8 +173,15 @@ export default async function BlogArticlePage({ params }: PageProps) {
               </div>
             )}
 
+            {/* Newsletter */}
+            <NewsletterForm
+              className="mt-12"
+              title="¿Te resultó útil este artículo?"
+              description="Recibe cada semana estrategias de expansión digital B2B, eCommerce y tendencias de IA directamente en tu bandeja de entrada."
+            />
+
             {/* CTA */}
-            <div className="mt-12 p-8 rounded-lg bg-primary/5 border border-primary/10 text-center">
+            <div className="mt-8 p-8 rounded-lg bg-primary/5 border border-primary/10 text-center">
               <h3 className="text-2xl font-semibold mb-4">
                 ¿Necesitas ayuda con tu estrategia digital?
               </h3>

@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { SITE_CONFIG, SERVICES, STATS } from "@/lib/constants";
 import type { Metadata } from "next";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export const metadata: Metadata = {
   title: "Juan Pablo Franco | Estratega de Expansión Digital | eCommerce Colombia",
@@ -252,6 +253,18 @@ export default function HomePage() {
               <BookOpen className="w-5 h-5" />
               Explorar Glosario Completo
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Newsletter Section */}
+      <section className="section-gray section" aria-label="Newsletter">
+        <div className="container">
+          <div className="max-w-2xl mx-auto">
+            <NewsletterForm
+              title="Insights B2B directamente en tu inbox"
+              description="Cada semana comparto estrategias de expansión digital, tendencias de eCommerce B2B e inteligencia artificial aplicada a negocios. Únete a más de 500 profesionales que ya reciben el newsletter."
+            />
           </div>
         </div>
       </section>

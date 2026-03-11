@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, MapPin, Linkedin } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/constants";
+import NewsletterForm from "@/components/NewsletterForm";
 
 export default function Footer() {
   return (
@@ -97,6 +98,17 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
+
+        {/* Newsletter */}
+        <div className="border-t border-border mt-12 pt-12">
+          <NewsletterForm
+            variant="compact"
+            className="max-w-xl mx-auto text-center"
+          />
+          <p className="text-center text-sm text-muted-foreground mt-3">
+            Estrategias B2B semanales &middot; Sin spam &middot; Cancela cuando quieras
+          </p>
         </div>
 
         {/* Bottom Bar */}
