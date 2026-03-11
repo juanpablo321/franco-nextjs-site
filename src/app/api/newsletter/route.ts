@@ -22,18 +22,23 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Kit API v4 - usa header X-Kit-Api-Key y endpoint api.kit.com/v4
+    const body: Record<string, string> = {
+      email_address: email,
+    };
+    if (firstName) {
+      body.first_name = firstName;
+    }
+
     const response = await fetch(
-      `https://api.convertkit.com/v3/forms/${KIT_FORM_ID}/subscribe`,
+      `https://api.kit.com/v4/forms/${KIT_FORM_ID}/subscribers`,
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "X-Kit-Api-Key": KIT_API_KEY,
         },
-        body: JSON.stringify({
-          api_key: KIT_API_KEY,
-          email,
-          first_name: firstName || "",
-        }),
+        body: JSON.stringify(body),
       }
     );
 
