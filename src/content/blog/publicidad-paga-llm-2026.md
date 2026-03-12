@@ -66,7 +66,7 @@ Al igual que en la búsqueda tradicional, existen dos caminos hacia la visibilid
 
 Lograr menciones orgánicas es el equivalente al SEO en la era de la IA. Requiere una estrategia de contenido robusta, datos estructurados y la construcción de autoridad en tu nicho. Los LLMs tienden a citar fuentes que perciben como creíbles y dominantes en un tema [7].
 
-> **Para compartir en LinkedIn:** "En la era de la IA, la visibilidad tiene dos caras: los anuncios pagados te compran un espacio, pero el GEO (Generative Engine Optimization) te gana un lugar en la respuesta. Las marcas B2B deben dominar ambos."
+> "En la era de la IA, la visibilidad tiene dos caras: los anuncios pagados te compran un espacio, pero el GEO (Generative Engine Optimization) te gana un lugar en la respuesta. Las marcas B2B deben dominar ambos."
 
 ## ¿Qué Significa Esto para el Marketing B2B en 2026?
 
