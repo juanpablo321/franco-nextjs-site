@@ -80,6 +80,8 @@ La llegada de la publicidad en LLMs no es una simple extensión de los canales e
 
 **4. El Contenido Sigue Siendo el Rey, pero con Nuevas Reglas:** Para ganar en GEO, el contenido debe ser impecable, bien estructurado y publicado en plataformas de alta autoridad. Los LLMs necesitan "entender" tu experiencia. Esto significa que la inversión en contenido de alta calidad y PR digital es más crucial que nunca.
 
+![Los retos de la publicidad con AI](/uploads/retos-publicidad-ai.png)
+
 ## Conclusiones Clave
 
 - **La publicidad en IA es real y está aquí para quedarse.** OpenAI y Google están liderando la carga, pero con enfoques y precios muy diferentes.
