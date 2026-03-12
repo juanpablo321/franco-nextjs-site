@@ -1,8 +1,8 @@
 export const SITE_CONFIG = {
   name: "Juan Pablo Franco",
-  title: "Juan Pablo Franco | Estratega de Expansión Digital",
+  title: "Juan Pablo Franco | Estratega de Comercio Digital y IA para B2B",
   description:
-    "Estratega de Expansión Digital con más de 15 años de experiencia en eCommerce, VTEX, marketplaces B2B y transformación digital en Colombia y el mundo.",
+    "Diseño estrategias de expansión digital que combinan eCommerce, marketplaces e inteligencia artificial para empresas B2B en Colombia y el mundo. +15 años de experiencia en VTEX y comercio digital.",
   url: "https://franco.com.co",
   locale: "es_CO",
   language: "es",
