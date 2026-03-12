@@ -30,9 +30,9 @@ La monetización de los LLMs se ha convertido en la prioridad para sus creadores
 
 OpenAI encendió la mecha el 9 de febrero de 2026, al lanzar una prueba de anuncios en ChatGPT para usuarios de sus planes gratuitos y de bajo costo [1]. La propuesta es audaz y establece una barrera de entrada considerable:
 
-> "OpenAI confirmó un precio de aproximadamente $60 por cada mil impresiones (CPM), con un compromiso mínimo de $200,000 para los anunciantes que ingresan al programa beta." [2]
+> "OpenAI confirmó un precio de aproximadamente USD $60 por cada mil impresiones (CPM), con un compromiso mínimo de USD $200,000 para los anunciantes que ingresan al programa beta." [2]
 
-Este costo, tres veces superior al de Meta y comparable con la televisión conectada (CTV), posiciona a ChatGPT como un canal publicitario *premium*, reservado, por ahora, para grandes empresas. Marcas como **Target, Adobe, Ford y Expedia** ya están a bordo, probando las aguas de este nuevo océano [6][9].
+Este costo en dólares estadounidenses (USD), tres veces superior al de Meta y comparable con la televisión conectada (CTV), posiciona a ChatGPT como un canal publicitario *premium*, reservado, por ahora, para grandes empresas. Marcas como **Target, Adobe, Ford y Expedia** ya están a bordo, probando las aguas de este nuevo océano [6][9].
 
 Google no se queda atrás. Aunque más cauteloso, ya ha comunicado a sus clientes que los anuncios llegarán a Gemini en 2026, operando de forma independiente a los que ya aparecen en sus AI Overviews de búsqueda [3]. Mientras tanto, Microsoft ya integra anuncios en experiencias de Copilot, afirmando que son un 25% más efectivos que la búsqueda tradicional.
 
@@ -40,7 +40,7 @@ Aquí una comparación rápida de las estrategias:
 
 | Plataforma | Modelo de Publicidad | CPM Estimado | Inversión Mínima | Estado Actual (Mar 2026) |
 |---|---|---|---|---|
-| **ChatGPT (OpenAI)** | Anuncios etiquetados debajo de la respuesta | ~$60 | $200,000 | En prueba (EE. UU.) |
+| **ChatGPT (OpenAI)** | Anuncios etiquetados debajo de la respuesta | ~USD $60 | USD $200,000 | En prueba (EE. UU.) |
 | **Gemini (Google)** | Anuncios planeados para 2026 | No revelado | No revelado | Sin anuncios (aún) |
 | **Copilot (Microsoft)** | Anuncios integrados en la experiencia | No revelado | Variable | Activo |
 | **Perplexity** | **Sin anuncios** (modelo abandonado) | N/A | N/A | Enfocado en suscripciones |
@@ -72,7 +72,7 @@ Lograr menciones orgánicas es el equivalente al SEO en la era de la IA. Requier
 
 La llegada de la publicidad en LLMs no es una simple extensión de los canales existentes; representa un cambio de paradigma con implicaciones estratégicas para las empresas B2B.
 
-**1. La Barrera de Entrada es Alta (por ahora):** Con un CPM de $60 y una inversión mínima de $200k, la publicidad en ChatGPT está, de momento, fuera del alcance de la mayoría de las pymes. Es un juego para grandes empresas que pueden permitirse experimentar y aprender. Para el resto, el enfoque debe ser 100% en GEO.
+**1. La Barrera de Entrada es Alta (por ahora):** Con un CPM de USD $60 y una inversión mínima de USD $200,000, la publicidad en ChatGPT está, de momento, fuera del alcance de la mayoría de las pymes. Es un juego para grandes empresas que pueden permitirse experimentar y aprender. Para el resto, el enfoque debe ser 100% en GEO.
 
 **2. El Tráfico de IA Convierte Mejor:** Los primeros datos son prometedores. Un análisis de ALM Corp encontró que el tráfico referido desde ChatGPT convierte un 31% más que el tráfico de búsqueda orgánica no-branded [10]. Los usuarios que llegan desde un LLM parecen tener una intención más calificada.
 
