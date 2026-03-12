@@ -18,9 +18,9 @@ import type { Metadata } from "next";
 import NewsletterForm from "@/components/NewsletterForm";
 
 export const metadata: Metadata = {
-  title: "Juan Pablo Franco | Estratega de Expansión Digital | eCommerce Colombia",
+  title: "Juan Pablo Franco | Estratega de Comercio Digital y IA para B2B | Colombia",
   description:
-    "Transformando negocios a través de estrategias de comercio digital basadas en datos en Colombia y el mundo. +15 años de experiencia en eCommerce, VTEX y marketplaces B2B.",
+    "Diseño estrategias de expansión digital que combinan eCommerce, marketplaces e inteligencia artificial para empresas B2B en Colombia y el mundo. +15 años de experiencia en VTEX y comercio digital.",
   alternates: {
     canonical: SITE_CONFIG.url,
   },
@@ -101,11 +101,12 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end w-full">
             <div className="space-y-6 lg:space-y-8 pb-0 lg:pb-24 pt-20">
               <h1 className="text-white text-center lg:text-left">
-                Estratega de Expansión Digital
+                Estratega de Comercio Digital y IA para B2B
               </h1>
               <p className="text-lg md:text-2xl text-white/90 leading-relaxed text-center lg:text-left">
-                Transformando negocios a través de estrategias de comercio
-                digital basadas en datos en Colombia y el mundo.
+                Diseño estrategias de expansión digital que combinan eCommerce,
+                marketplaces e inteligencia artificial para que tu empresa venda
+                más y mejor.
               </p>
               <div className="pt-4 pb-4 flex justify-center lg:justify-start">
                 <Link href="/#contacto" className="btn-outline text-lg px-8 py-4">
