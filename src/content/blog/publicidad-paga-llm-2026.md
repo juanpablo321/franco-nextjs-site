@@ -36,16 +36,6 @@ Este costo en dólares estadounidenses (USD), tres veces superior al de Meta y c
 
 Google no se queda atrás. Aunque más cauteloso, ya ha comunicado a sus clientes que los anuncios llegarán a Gemini en 2026, operando de forma independiente a los que ya aparecen en sus AI Overviews de búsqueda [3]. Mientras tanto, Microsoft ya integra anuncios en experiencias de Copilot, afirmando que son un 25% más efectivos que la búsqueda tradicional.
 
-Aquí una comparación rápida de las estrategias:
-
-| Plataforma | Modelo de Publicidad | CPM Estimado | Inversión Mínima | Estado Actual (Mar 2026) |
-|---|---|---|---|---|
-| **ChatGPT (OpenAI)** | Anuncios etiquetados debajo de la respuesta | ~USD $60 | USD $200,000 | En prueba (EE. UU.) |
-| **Gemini (Google)** | Anuncios planeados para 2026 | No revelado | No revelado | Sin anuncios (aún) |
-| **Copilot (Microsoft)** | Anuncios integrados en la experiencia | No revelado | Variable | Activo |
-| **Perplexity** | **Sin anuncios** (modelo abandonado) | N/A | N/A | Enfocado en suscripciones |
-| **Claude (Anthropic)**| **Sin anuncios** (compromiso público) | N/A | N/A | Enfocado en enterprise |
-
 ## El Caso Perplexity: ¿Por Qué Renunciar a la Publicidad?
 
 En un movimiento que sacudió a la industria, Perplexity, un "motor de respuestas" de rápido crecimiento, abandonó su programa de anuncios en febrero de 2026. La razón es una lección fundamental para cualquiera que considere este nuevo canal: **la confianza**.
