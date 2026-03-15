@@ -81,10 +81,10 @@ export default function SobreMiPage() {
                   generación de leads para empresas en Colombia y el mundo.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  He liderado proyectos para marcas globales como Coca-Cola,
-                  Nestlé, Unilever y Amazon, generando resultados medibles en
-                  crecimiento de ventas, optimización de procesos y expansión de
-                  mercado.
+                  He liderado proyectos para empresas como Groupe Casino (Francia),
+                  OBI (Alemania), La Comer (México) y Panamericana (Colombia),
+                  generando resultados medibles en crecimiento de ventas,
+                  optimización de procesos y expansión de mercado.
                 </p>
                 <div className="grid grid-cols-3 gap-4 pt-4">
                   {[

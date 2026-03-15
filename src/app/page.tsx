@@ -172,10 +172,10 @@ export default function HomePage() {
                 empresas en Colombia y el mundo.
               </p>
               <p className="text-xl leading-relaxed">
-                He liderado proyectos para marcas globales como Coca-Cola,
-                Nestlé, Unilever y Amazon, generando resultados medibles en
-                crecimiento de ventas, optimización de procesos y expansión de
-                mercado.
+                He liderado proyectos para empresas como Groupe Casino (Francia),
+                OBI (Alemania), La Comer (México) y Panamericana (Colombia),
+                generando resultados medibles en crecimiento de ventas,
+                optimización de procesos y expansión de mercado.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
