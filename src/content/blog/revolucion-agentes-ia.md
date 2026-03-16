@@ -19,7 +19,7 @@ keywords:
 
 ## La diferencia entre pedir un consejo y contratar a un experto
 
-Hace un año, preparar el seguimiento semanal de prospectos era un ritual tedioso: abría el CRM, buscaba cada empresa en Google, revisaba LinkedIn, tomaba notas y luego redactaba un correo diferente para cada uno. Una hora fácil, a veces más. Hace un mes lo hice en 40 minutos usando flujos automatizados. Ayer tardé dos minutos. Y no tocé el teclado para nada de eso.
+Hace un año, preparar el seguimiento semanal de prospectos era un ritual tedioso: abría el CRM, buscaba cada empresa en Google, revisaba LinkedIn, tomaba notas y luego redactaba un correo diferente para cada uno. Dos horas fácil, a veces más. Hace tres meses lo hice en 40 minutos usando flujos automatizados. Ayer tardé dos minutos. Y no presioné una sola tecla para nada de eso.
 
 La mayoría de las personas sigue usando la Inteligencia Artificial como si fuera un buscador de Google mejorado. Le hacen una pregunta, reciben una respuesta y ahí termina la historia. Pero lo que acabo de describir no es un chatbot. Es un **Agente de Inteligencia Artificial**. Y la diferencia entre los dos es exactamente la misma que hay entre pedirle a alguien que te dé un consejo y contratarlo para que haga el trabajo.
 
