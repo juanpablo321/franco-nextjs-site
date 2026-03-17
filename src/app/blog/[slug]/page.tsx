@@ -1,9 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { ArrowLeft, Clock, Calendar, Tag } from "lucide-react";
+import MarkdownRenderer from "@/components/MarkdownRenderer";
 import { getArticleBySlug, getArticleSlugs } from "@/lib/blog";
 import { SITE_CONFIG } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -148,9 +147,7 @@ export default async function BlogArticlePage({ params }: PageProps) {
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <article className="prose mx-auto">
-              <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                {article.content}
-              </ReactMarkdown>
+              <MarkdownRenderer content={article.content} />
             </article>
 
             {/* Keywords */}
