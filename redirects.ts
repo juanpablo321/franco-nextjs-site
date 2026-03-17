@@ -35,6 +35,13 @@ const REDIRECTS: Redirect[] = [
     permanent: true,
   },
 
+  // ── Glosario ──────────────────────────────────────────────────────────────
+  {
+    source: "/que-es-una-api",
+    destination: "/glosario/api-application-programming-interface",
+    permanent: true,
+  },
+
   // ── Agrega nuevas redirecciones debajo de esta línea ──────────────────────
 
 ];
