@@ -25,6 +25,16 @@ export default defineConfig({
       publicFolder: 'public',
     },
   },
+  // Search configuration — https://tina.io/docs/reference/search/overview
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
+      stopwordLanguages: ['eng', 'spa'],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
+  },
+
   // See docs on content modeling for more info: https://tina.io/docs/schema/
   schema: {
     collections: [
@@ -96,6 +106,7 @@ export default defineConfig({
             name: 'image',
             label: 'Imagen Destacada',
             description: 'URL de la imagen destacada del artículo',
+            searchable: false,
           },
           {
             type: 'string',
