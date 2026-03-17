@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { NAV_LINKS, SITE_CONFIG } from "@/lib/constants";
+import SearchButton from "@/components/SearchButton";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -120,7 +121,9 @@ export default function Header() {
             })}
           </nav>
 
-          {/* Mobile Menu Button */}
+          {/* Search + Mobile Menu */}
+          <div className="flex items-center gap-2">
+            <SearchButton isScrolled={isScrolled} />
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className={`lg:hidden p-2 transition-colors ${
@@ -130,6 +133,7 @@ export default function Header() {
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
+          </div>
         </div>
       </div>
 
