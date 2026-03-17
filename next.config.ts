@@ -1,5 +1,29 @@
 import type { NextConfig } from "next";
 
+// ─────────────────────────────────────────────────────────────────────────────
+// SISTEMA DE REDIRECCIONES SEO
+//
+// permanent: true  → HTTP 308 (transfiere link juice al destino — usar para
+//                    cambios definitivos de URL, slugs renombrados, etc.)
+// permanent: false → HTTP 307 (temporal, no transfiere link juice — usar para
+//                    pruebas A/B, mantenimiento, campañas temporales)
+//
+// Cómo agregar una redirección:
+//   1. Añade un objeto al array REDIRECTS con source, destination y permanent.
+//   2. Haz commit y push — Vercel lo aplica en el siguiente deploy.
+//   3. No se necesita reiniciar el servidor.
+//
+// Wildcards disponibles:
+//   /blog/:slug*   → captura /blog/cualquier/ruta
+//   /old-(.*)?     → expresiones regulares (requiere `regex: true` en el objeto)
+// ─────────────────────────────────────────────────────────────────────────────
+const REDIRECTS: { source: string; destination: string; permanent: boolean }[] = [
+  // Agrega aquí las redirecciones cuando las necesites. Ejemplos:
+  // { source: "/articulo-viejo", destination: "/blog/articulo-nuevo", permanent: true },
+  // { source: "/blog/viejo-slug", destination: "/blog/nuevo-slug", permanent: true },
+  // { source: "/servicios", destination: "/sobre-mi", permanent: false },
+];
+
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
@@ -18,6 +42,11 @@ const nextConfig: NextConfig = {
     ],
     formats: ["image/avif", "image/webp"],
   },
+
+  async redirects() {
+    return REDIRECTS;
+  },
+
   async headers() {
     return [
       {
