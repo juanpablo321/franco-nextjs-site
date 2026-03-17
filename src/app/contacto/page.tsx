@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, FormEvent, ChangeEvent } from 'react';
-import Link from 'next/link';
-import { Metadata } from 'next';
+import { MessageSquare, Linkedin, Phone } from 'lucide-react';
+import { SITE_CONFIG } from '@/lib/constants';
 
 interface FormData {
   name: string;
@@ -37,27 +37,17 @@ export default function ContactPage() {
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: value,
-    }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setFormState({
-      isLoading: true,
-      isSuccess: false,
-      isError: false,
-      errorMessage: '',
-    });
+    setFormState({ isLoading: true, isSuccess: false, isError: false, errorMessage: '' });
 
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
 
@@ -67,297 +57,197 @@ export default function ContactPage() {
         throw new Error(data.error || 'Error al enviar el formulario');
       }
 
-      setFormState({
-        isLoading: false,
-        isSuccess: true,
-        isError: false,
-        errorMessage: '',
-      });
+      setFormState({ isLoading: false, isSuccess: true, isError: false, errorMessage: '' });
+      setFormData({ name: '', email: '', subject: '', message: '' });
 
-      // Limpiar formulario
-      setFormData({
-        name: '',
-        email: '',
-        subject: '',
-        message: '',
-      });
-
-      // Ocultar mensaje de éxito después de 5 segundos
       setTimeout(() => {
-        setFormState((prev) => ({
-          ...prev,
-          isSuccess: false,
-        }));
+        setFormState((prev) => ({ ...prev, isSuccess: false }));
       }, 5000);
     } catch (error) {
       setFormState({
         isLoading: false,
         isSuccess: false,
         isError: true,
-        errorMessage:
-          error instanceof Error
-            ? error.message
-            : 'Error al enviar el formulario',
+        errorMessage: error instanceof Error ? error.message : 'Error al enviar el formulario',
       });
     }
   };
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-900 via-purple-800 to-orange-600">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-black/10 backdrop-blur-md border-b border-white/10">
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <Link href="/" className="text-white font-bold text-xl hover:opacity-80 transition">
-            Juan Pablo Franco
-          </Link>
-          <div className="hidden md:flex gap-8">
-            <Link href="/" className="text-white/80 hover:text-white transition">
-              Inicio
-            </Link>
-            <Link href="/sobre-mi" className="text-white/80 hover:text-white transition">
-              Sobre Mí
-            </Link>
-            <Link href="/blog" className="text-white/80 hover:text-white transition">
-              Blog
-            </Link>
-            <Link href="/glosario" className="text-white/80 hover:text-white transition">
-              Glosario
-            </Link>
-            <Link href="/contacto" className="text-white font-semibold">
-              Contacto
-            </Link>
-          </div>
-        </nav>
-      </header>
-
-      {/* Hero Section */}
-      <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Trabajemos Juntos
-          </h1>
-          <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            ¿Listo para llevar tu negocio digital al siguiente nivel? Contáctame para discutir
-            cómo puedo ayudarte a alcanzar tus objetivos.
-          </p>
-        </div>
-
-        {/* Contact Form */}
-        <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 md:p-12 border border-white/20">
-          <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Name Field */}
-            <div>
-              <label htmlFor="name" className="block text-white font-semibold mb-2">
-                Nombre Completo
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                placeholder="Tu nombre"
-              />
-            </div>
-
-            {/* Email Field */}
-            <div>
-              <label htmlFor="email" className="block text-white font-semibold mb-2">
-                Correo Electrónico
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                placeholder="tu@email.com"
-              />
-            </div>
-
-            {/* Subject Field */}
-            <div>
-              <label htmlFor="subject" className="block text-white font-semibold mb-2">
-                Asunto
-              </label>
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                value={formData.subject}
-                onChange={handleChange}
-                required
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition"
-                placeholder="¿Cuál es el tema de tu mensaje?"
-              />
-            </div>
-
-            {/* Message Field */}
-            <div>
-              <label htmlFor="message" className="block text-white font-semibold mb-2">
-                Mensaje
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-                rows={6}
-                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition resize-none"
-                placeholder="Cuéntame más sobre tu proyecto o pregunta..."
-              />
-            </div>
-
-            {/* Success Message */}
-            {formState.isSuccess && (
-              <div className="p-4 rounded-lg bg-green-500/20 border border-green-500/50 text-green-100">
-                <p className="font-semibold">✓ Mensaje enviado correctamente</p>
-                <p className="text-sm mt-1">
-                  Gracias por tu mensaje. Pronto nos pondremos en contacto contigo.
-                </p>
-              </div>
-            )}
-
-            {/* Error Message */}
-            {formState.isError && (
-              <div className="p-4 rounded-lg bg-red-500/20 border border-red-500/50 text-red-100">
-                <p className="font-semibold">✕ Error al enviar el mensaje</p>
-                <p className="text-sm mt-1">{formState.errorMessage}</p>
-              </div>
-            )}
-
-            {/* Submit Button */}
-            <button
-              type="submit"
-              disabled={formState.isLoading}
-              className="w-full px-6 py-3 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 disabled:from-gray-500 disabled:to-gray-600 text-white font-semibold rounded-lg transition transform hover:scale-105 disabled:scale-100 disabled:cursor-not-allowed"
-            >
-              {formState.isLoading ? (
-                <span className="flex items-center justify-center gap-2">
-                  <span className="animate-spin">⟳</span>
-                  Enviando...
-                </span>
-              ) : (
-                'Enviar Mensaje'
-              )}
-            </button>
-          </form>
-
-          {/* Contact Info */}
-          <div className="mt-12 pt-8 border-t border-white/20">
-            <h3 className="text-white font-semibold text-lg mb-4">Otras formas de contactarme</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <p className="text-white/60 text-sm mb-1">WhatsApp</p>
-                <a
-                  href="https://wa.me/573235812748"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-400 hover:text-orange-300 font-semibold transition"
-                >
-                  +57 323 5812748
-                </a>
-              </div>
-              <div>
-                <p className="text-white/60 text-sm mb-1">LinkedIn</p>
-                <a
-                  href="https://linkedin.com/in/juanpablo321"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-orange-400 hover:text-orange-300 font-semibold transition"
-                >
-                  /in/juanpablo321
-                </a>
-              </div>
-            </div>
+    <>
+      {/* Hero */}
+      <section className="pt-32 pb-20 text-white relative overflow-hidden section-purple">
+        <div className="container relative z-10">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="section-label text-white/80 mb-4">Contacto</p>
+            <h1 className="text-white mb-6">Trabajemos Juntos</h1>
+            <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
+              ¿Listo para llevar tu negocio digital al siguiente nivel? Contáctame y
+              hablemos de cómo puedo ayudarte a alcanzar tus objetivos.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-black/30 backdrop-blur-md border-t border-white/10 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
-            <div>
-              <h4 className="text-white font-semibold mb-4">Navegación</h4>
-              <ul className="space-y-2">
-                <li>
-                  <Link href="/" className="text-white/60 hover:text-white transition">
-                    Inicio
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/sobre-mi" className="text-white/60 hover:text-white transition">
-                    Sobre Mí
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/blog" className="text-white/60 hover:text-white transition">
-                    Blog
-                  </Link>
-                </li>
-              </ul>
+      {/* Contact Section */}
+      <section className="section section-white">
+        <div className="container">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+            {/* Contact Info */}
+            <div className="space-y-8">
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Información de Contacto</h2>
+                <p className="text-muted-foreground leading-relaxed">
+                  Puedes escribirme directamente por el formulario o contactarme
+                  a través de cualquiera de estos canales.
+                </p>
+              </div>
+
+              <div className="space-y-6">
+                <a
+                  href={SITE_CONFIG.whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 group"
+                >
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <Phone size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">WhatsApp</p>
+                    <p className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                      +57 323 5812748
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.linkedinUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 group"
+                >
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                    <Linkedin size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">LinkedIn</p>
+                    <p className="font-semibold text-foreground group-hover:text-primary transition-colors">
+                      /in/juanpablo321
+                    </p>
+                  </div>
+                </a>
+
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <MessageSquare size={20} className="text-primary" />
+                  </div>
+                  <div>
+                    <p className="text-sm text-muted-foreground">Ubicación</p>
+                    <p className="font-semibold text-foreground">Bogotá D.C., Colombia</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Recursos</h4>
-              <ul className="space-y-2">
-                <li>
-                  <Link href="/glosario" className="text-white/60 hover:text-white transition">
-                    Glosario
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/privacidad" className="text-white/60 hover:text-white transition">
-                    Privacidad
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/terminos" className="text-white/60 hover:text-white transition">
-                    Términos
-                  </Link>
-                </li>
-              </ul>
+
+            {/* Contact Form */}
+            <div className="lg:col-span-2">
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-semibold mb-2 text-foreground">
+                      Nombre Completo
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      value={formData.name}
+                      onChange={handleChange}
+                      required
+                      className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
+                      placeholder="Tu nombre"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-semibold mb-2 text-foreground">
+                      Correo Electrónico
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required
+                      className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
+                      placeholder="tu@email.com"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label htmlFor="subject" className="block text-sm font-semibold mb-2 text-foreground">
+                    Asunto
+                  </label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    required
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
+                    placeholder="¿Cuál es el tema de tu mensaje?"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-sm font-semibold mb-2 text-foreground">
+                    Mensaje
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    rows={6}
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-background text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition resize-none"
+                    placeholder="Cuéntame más sobre tu proyecto o pregunta..."
+                  />
+                </div>
+
+                {formState.isSuccess && (
+                  <div className="p-4 rounded-lg bg-green-50 border border-green-200 text-green-800">
+                    <p className="font-semibold">Mensaje enviado correctamente</p>
+                    <p className="text-sm mt-1">
+                      Gracias por tu mensaje. Pronto me pondré en contacto contigo.
+                    </p>
+                  </div>
+                )}
+
+                {formState.isError && (
+                  <div className="p-4 rounded-lg bg-red-50 border border-red-200 text-red-800">
+                    <p className="font-semibold">Error al enviar el mensaje</p>
+                    <p className="text-sm mt-1">{formState.errorMessage}</p>
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={formState.isLoading}
+                  className="btn-primary w-full disabled:opacity-60 disabled:cursor-not-allowed"
+                >
+                  {formState.isLoading ? 'Enviando...' : 'Enviar Mensaje'}
+                </button>
+              </form>
             </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Contacto</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a
-                    href="https://wa.me/573235812748"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/60 hover:text-white transition"
-                  >
-                    WhatsApp
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://linkedin.com/in/juanpablo321"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-white/60 hover:text-white transition"
-                  >
-                    LinkedIn
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-white font-semibold mb-4">Ubicación</h4>
-              <p className="text-white/60">Bogotá D.C., Colombia</p>
-            </div>
-          </div>
-          <div className="border-t border-white/10 pt-8 text-center text-white/40 text-sm">
-            <p>&copy; 2026 Juan Pablo Franco. Todos los derechos reservados.</p>
+
           </div>
         </div>
-      </footer>
-    </main>
+      </section>
+    </>
   );
 }
