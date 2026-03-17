@@ -22,6 +22,9 @@ const REDIRECTS: { source: string; destination: string; permanent: boolean }[] =
   // { source: "/articulo-viejo", destination: "/blog/articulo-nuevo", permanent: true },
   // { source: "/blog/viejo-slug", destination: "/blog/nuevo-slug", permanent: true },
   // { source: "/servicios", destination: "/sobre-mi", permanent: false },
+
+  // GTM: redirección desde URL corta hacia el artículo del blog
+  { source: "/que-es-una-estrategia-gtm-go-to-market", destination: "/blog/estrategia-go-to-market-b2b", permanent: true },
 ];
 
 const nextConfig: NextConfig = {
