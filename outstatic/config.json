@@ -1,3 +1,5 @@
 {
-  "mdExtension": "md"
+  "mdExtension": "md",
+  "publicMediaPath": "+  uploads/",
+  "repoMediaPath": "public/uploads/"
 }
