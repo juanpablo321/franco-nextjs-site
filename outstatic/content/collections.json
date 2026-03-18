@@ -4,5 +4,11 @@
     "slug": "blog",
     "path": "src/content/blog",
     "children": []
+  },
+  {
+    "title": "Glossary",
+    "slug": "glossary",
+    "path": "src/content/glossary",
+    "children": []
   }
 ]
