@@ -1,6 +1,13 @@
 {
-  "title": "Blog",
-  "slug": "blog",
+  "title": "blog",
   "type": "object",
-  "properties": {}
+  "properties": {
+    "excerpt": {
+      "description": "Post resume",
+      "required": true,
+      "fieldType": "Text",
+      "dataType": "string",
+      "title": "excerpt"
+    }
+  }
 }
