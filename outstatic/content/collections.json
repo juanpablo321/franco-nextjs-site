@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Blog",
+    "slug": "blog",
+    "path": "src/content/blog",
+    "children": []
+  }
+]
