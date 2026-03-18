@@ -1,0 +1,36 @@
+{
+  "commit": "",
+  "generated": "2026-03-18T17:28:27.572Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "4127205380",
+        "path": "src/content/blog/comparativa-cloud-entry-level-2026.md"
+      },
+      "author": {
+        "name": "Juan Franco",
+        "picture": "https://avatars.githubusercontent.com/u/1793601?v=4"
+      },
+      "category": "Tecnología",
+      "collection": "blog",
+      "date": "2026-03-17",
+      "description": "Análisis a fondo de Amazon Lightsail, Vercel, Railway, Render y DigitalOcean. Precios, ventajas y el caso de uso perfecto para cada uno en el mercado colombiano.",
+      "excerpt": "Análisis a fondo de Amazon Lightsail, Vercel, Railway, Render y DigitalOcean. Precios, ventajas y el caso de uso perfecto para cada uno en el mercado colombiano.",
+      "image": "/uploads/comparativa-cloud-lightsail-vercel-2026.jpg",
+      "keywords": [
+        "aws lightsail",
+        "vercel",
+        "railway",
+        "render",
+        "digitalocean",
+        "cloud hosting colombia",
+        "vps vs paas"
+      ],
+      "publishedAt": "2026-03-18T16:57:45.594Z",
+      "slug": "comparativa-cloud-entry-level-2026",
+      "status": "published",
+      "title": "AWS Lightsail vs Vercel, Railway y más: ¿Cuál es el mejor hosting para empezar en 2026?"
+    }
+  ]
+}

@@ -3,9 +3,22 @@ title: "AWS Lightsail vs Vercel, Railway y más: ¿Cuál es el mejor hosting par
 description: "Análisis a fondo de Amazon Lightsail, Vercel, Railway, Render y DigitalOcean. Precios, ventajas y el caso de uso perfecto para cada uno en el mercado colombiano."
 date: "2026-03-17"
 category: "Tecnología"
-author: "Juan Pablo Franco"
+author:
+  name: "Juan Franco"
+  picture: "https://avatars.githubusercontent.com/u/1793601?v=4"
 image: "/uploads/comparativa-cloud-lightsail-vercel-2026.jpg"
-keywords: ["aws lightsail", "vercel", "railway", "render", "digitalocean", "cloud hosting colombia", "vps vs paas"]
+keywords:
+  - "aws lightsail"
+  - "vercel"
+  - "railway"
+  - "render"
+  - "digitalocean"
+  - "cloud hosting colombia"
+  - "vps vs paas"
+publishedAt: "2026-03-18T16:57:45.594Z"
+status: "published"
+slug: "comparativa-cloud-entry-level-2026"
+excerpt: "Análisis a fondo de Amazon Lightsail, Vercel, Railway, Render y DigitalOcean. Precios, ventajas y el caso de uso perfecto para cada uno en el mercado colombiano."
 ---
 
 Empezar un nuevo proyecto digital en Colombia siempre llega a la misma pregunta: *"¿Y esto dónde lo monto?"*. Necesitas un hosting que no te cueste un ojo de la cara, que sea fácil de usar y que no se caiga cuando tres personas entran al mismo tiempo. Hace unos años, la respuesta era un VPS y a configurar todo a mano. Hoy, el panorama es radicalmente diferente.
@@ -31,9 +44,9 @@ Entender esta diferencia es el 80% de la decisión. ¿Tu valor está en configur
 ## Comparativa Rápida: Los 5 Contendientes (Precios 2026)
 
 | Plataforma | Precio de Entrada (USD/mes) | Modelo de Precios | Ideal Para... |
-| :--- | :--- | :--- | :--- |
+| --- | --- | --- | --- |
 | **Amazon Lightsail** | $5 | Fijo (Bundle) | Proyectos en AWS, WordPress, apps estables |
-| **DigitalOcean** | $4 – $7 | Fijo (Bundle) | Desarrolladores que quieren control (VPS) |
+| **DigitalOcean** |  | Fijo (Bundle) | Desarrolladores que quieren control (VPS) |
 | **Vercel** | Gratis (Hobby) | Por Uso (Pro) | Frontend, Next.js, sitios estáticos/JAMstack |
 | **Railway** | $5 + Uso | Por Uso | Prototipos, backends, apps con tráfico variable |
 | **Render** | Gratis / $7 | Fijo + Uso | Full-stack, bases de datos, multi-región |
@@ -44,7 +57,7 @@ Entender esta diferencia es el 80% de la decisión. ¿Tu valor está en configur
 
 ## Cuándo Usar Cada Plataforma: El Detalle Fino
 
-#### [AWS] Amazon Lightsail: El Jardín Amurallado de AWS
+#### \[AWS\] Amazon Lightsail: El Jardín Amurallado de AWS
 
 Lightsail es la respuesta de Amazon al "AWS es muy complicado". Agrupa cómputo, almacenamiento y red en un precio fijo y predecible. Un plan de $7/mes te da 1 GB de RAM, 2 vCPU y 2 TB de transferencia de datos incluida.
 
@@ -54,7 +67,7 @@ Lightsail es la respuesta de Amazon al "AWS es muy complicado". Agrupa cómputo,
 
 ---
 
-#### [DO] DigitalOcean: El Favorito de los Desarrolladores
+#### \[DO\] DigitalOcean: El Favorito de los Desarrolladores
 
 DigitalOcean construyó su reputación con tres pilares: precios simples, excelente rendimiento y una comunidad con más de 8,000 tutoriales. Su plan "Premium" de $7/mes compite directamente con Lightsail, pero con discos NVMe más rápidos y una experiencia de usuario más limpia. Desde enero de 2026, además, migró a facturación por segundo.
 
@@ -64,7 +77,7 @@ DigitalOcean construyó su reputación con tres pilares: precios simples, excele
 
 ---
 
-#### [VERCEL] Vercel: El Rey del Frontend
+#### \[VERCEL\] Vercel: El Rey del Frontend
 
 Si tu proyecto usa **Next.js**, no busques más. Vercel es la casa de Next.js, creado por el mismo equipo. La experiencia de despliegue es mágica: conectas tu repositorio de GitHub y listo. Cada `git push` genera un nuevo despliegue automático.
 
@@ -74,7 +87,7 @@ Si tu proyecto usa **Next.js**, no busques más. Vercel es la casa de Next.js, c
 
 ---
 
-#### [RAILWAY] Railway: Pago Solo por lo que Usas
+#### \[RAILWAY\] Railway: Pago Solo por lo que Usas
 
 Railway funciona con un modelo de pago por uso. No pagas por un servidor 24/7, sino por los recursos que tu aplicación consume cada segundo. Esto es ideal para proyectos con tráfico irregular, como un API que solo se usa unas horas al día.
 
@@ -84,7 +97,7 @@ Railway funciona con un modelo de pago por uso. No pagas por un servidor 24/7, s
 
 ---
 
-#### [RENDER] Render: El Equilibrio Entre Potencia y Simplicidad
+#### \[RENDER\] Render: El Equilibrio Entre Potencia y Simplicidad
 
 Render nació en 2018 como alternativa a Heroku y ha crecido hasta convertirse en una plataforma completa. Soporta web services, sitios estáticos, cron jobs y bases de datos administradas, todo desde el mismo panel.
 
@@ -102,11 +115,11 @@ Imagina que una agencia de diseño en Bogotá necesita lanzar un e-commerce para
 
 **Frontend (Next.js):** Se despliega en **Vercel** (plan gratuito). **Backend (Strapi) y Base de Datos (PostgreSQL):** Se despliegan en **Render** (plan gratuito o Starter de $7/mes para cada servicio).
 
-El costo total estimado es de **USD $0 a $14/mes**, con menos de una hora de tiempo de despliegue. La ventaja principal es la escalabilidad automática, cero mantenimiento de servidores y despliegues instantáneos con cada cambio de código.
+El costo total estimado es de **USD $0 a $**, con menos de una hora de tiempo de despliegue. La ventaja principal es la escalabilidad automática, cero mantenimiento de servidores y despliegues instantáneos con cada cambio de código.
 
 ### Opción B — La vía VPS tradicional
 
-Se contrata un Droplet en **DigitalOcean** ($7/mes) o una instancia en **Lightsail** ($7/mes). Luego se instala manualmente Node.js, Nginx, PostgreSQL, PM2 y se configuran el firewall, los dominios y los certificados SSL.
+Se contrata un Droplet en **DigitalOcean** ($7/mes) o una instancia en **Lightsail** ($
 
 El costo total estimado es de **USD $7/mes**, pero con 3 a 5 horas de configuración inicial para alguien con experiencia. La ventaja es el control total sobre el entorno.
 
