@@ -60,12 +60,12 @@ export default function HeroAnimation() {
       nodes = Array.from({ length: count }, () => ({
         x: Math.random() * width,
         y: Math.random() * height,
-        vx: (Math.random() - 0.5) * 0.35,
-        vy: (Math.random() - 0.5) * 0.35,
+        vx: (Math.random() - 0.5) * 0.15,
+        vy: (Math.random() - 0.5) * 0.15,
         radius: Math.random() * 2.5 + 1.5,
         brightness: Math.random() * 0.5 + 0.5,
         pulsePhase: Math.random() * Math.PI * 2,
-        pulseSpeed: Math.random() * 0.02 + 0.01,
+        pulseSpeed: Math.random() * 0.01 + 0.005,
       }));
       pulses = [];
     };
@@ -91,7 +91,7 @@ export default function HeroAnimation() {
         fromNode: edge[0],
         toNode: edge[1],
         progress: 0,
-        speed: Math.random() * 0.018 + 0.012,
+        speed: Math.random() * 0.008 + 0.005,
         color: colorOptions[Math.floor(Math.random() * colorOptions.length)],
         size: Math.random() * 3 + 2,
       });
@@ -173,12 +173,12 @@ export default function HeroAnimation() {
       }
 
       // Spawn pulses periodically
-      if (frame % 18 === 0 && pulses.length < 12) {
+      if (frame % 30 === 0 && pulses.length < 8) {
         spawnPulse(edges);
       }
       // Occasionally spawn a burst of 2-3 pulses (simulates a "decision moment")
-      if (frame % 90 === 0) {
-        for (let k = 0; k < 3; k++) spawnPulse(edges);
+      if (frame % 150 === 0) {
+        for (let k = 0; k < 2; k++) spawnPulse(edges);
       }
 
       frame++;
