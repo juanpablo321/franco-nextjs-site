@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import {
   ShoppingCart,
-  Globe,
+  Workflow,
   Bot,
   Target,
   TrendingUp,
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 const iconMap: Record<string, React.ElementType> = {
   Bot,
   ShoppingCart,
-  Globe,
+  Workflow,
 };
 
 export default function HomePage() {

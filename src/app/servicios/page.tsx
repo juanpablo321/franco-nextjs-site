@@ -2,7 +2,7 @@ import Link from "next/link";
 import {
   Bot,
   ShoppingCart,
-  Globe,
+  Workflow,
   ArrowRight,
   CheckCircle2,
 } from "lucide-react";
@@ -10,9 +10,9 @@ import { SITE_CONFIG } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Servicios | Comercio Digital, IA y Expansión B2B",
+  title: "Servicios | Comercio Digital, Agentes de IA y Automatización B2B",
   description:
-    "Servicios de consultoría en generación de demanda B2B con agentes de IA, estrategia de comercio digital y expansión internacional. Resultados medibles para empresas B2B.",
+    "Servicios de consultoría en generación de demanda B2B con agentes de IA, estrategia de comercio digital y automatización de procesos con integraciones MCP. Resultados medibles para empresas B2B.",
   alternates: {
     canonical: `${SITE_CONFIG.url}/servicios`,
   },
@@ -46,15 +46,15 @@ const SERVICES_DATA = [
     cta: "Conocer este servicio",
   },
   {
-    icon: Globe,
-    title: "Expansión Digital Internacional",
-    slug: "expansion-digital-internacional",
+    icon: Workflow,
+    title: "Automatización con Agentes de IA y MCP",
+    slug: "automatizacion-agentes-ia-mcp",
     description:
-      "Estrategia de entrada a nuevos mercados digitales, localización y operaciones cross-border para llevar tu eCommerce B2B más allá de fronteras.",
+      "Conecto agentes de IA a tus sistemas empresariales vía Model Context Protocol (MCP) para automatizar procesos, eliminar tareas manuales y escalar operaciones.",
     highlights: [
-      "Análisis de mercados internacionales",
-      "Localización y adaptación cultural",
-      "Logística y operaciones cross-border",
+      "Agentes de IA conectados a CRM, ERP y APIs",
+      "Integraciones MCP seguras y auditables",
+      "Automatización inteligente de flujos de trabajo",
     ],
     cta: "Conocer este servicio",
   },

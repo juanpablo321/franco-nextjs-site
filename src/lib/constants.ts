@@ -52,15 +52,15 @@ export const SERVICES = [
     ],
   },
   {
-    icon: "Globe",
-    title: "Expansión Digital Internacional",
-    slug: "expansion-digital-internacional",
+    icon: "Workflow",
+    title: "Automatización con Agentes de IA y MCP",
+    slug: "automatizacion-agentes-ia-mcp",
     description:
-      "Estrategia de entrada a nuevos mercados digitales, localización y operaciones cross-border para tu eCommerce B2B.",
+      "Conecto agentes de IA a tus sistemas empresariales vía Model Context Protocol (MCP) para automatizar procesos y eliminar tareas manuales.",
     features: [
-      "Análisis de mercados internacionales",
-      "Localización y adaptación cultural",
-      "Logística y operaciones cross-border",
+      "Agentes de IA conectados a CRM, ERP y APIs",
+      "Integraciones MCP seguras y auditables",
+      "Automatización inteligente de flujos de trabajo",
     ],
   },
 ] as const;
