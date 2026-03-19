@@ -34,10 +34,10 @@ const SERVICES_DATA = [
   },
   {
     icon: ShoppingCart,
-    title: "Estrategia de Comercio Digital B2B",
+    title: "Consultor en Comercio Electrónico B2B y B2C",
     slug: "estrategia-comercio-digital-b2b",
     description:
-      "Consultoría en eCommerce, marketplaces e integración de canales digitales para que tu empresa B2B venda más y mejor en el entorno digital.",
+      "Consultoría en eCommerce, marketplaces e integración de canales digitales para que tu empresa B2B y B2C venda más y mejor en el entorno digital.",
     highlights: [
       "Implementación y optimización VTEX",
       "Estrategia omnicanal B2B",

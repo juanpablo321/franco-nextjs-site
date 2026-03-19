@@ -140,27 +140,27 @@ export default function HomePage() {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="text-center">
               <p className="section-label text-primary mb-4">Sobre Mí</p>
-              <h2>Experto en Comercio Digital y Marketplaces</h2>
+              <h2>Generación de Demanda B2B con Inteligencia Artificial</h2>
             </div>
             <div className="space-y-6 text-center">
               <p className="text-xl leading-relaxed">
-                Con más de 15 años de experiencia en eCommerce y transformación
-                digital, me especializo en implementaciones VTEX, desarrollo de
-                marketplaces B2B y estrategias de generación de leads para
-                empresas en Colombia y el mundo.
+                Con más de 15 años en eCommerce y transformación digital, hoy
+                me especializo en diseñar sistemas de generación de demanda que
+                combinan agentes de IA con estrategias de comercio digital para
+                calificar prospectos B2B con mayor velocidad y precisión.
               </p>
               <p className="text-xl leading-relaxed">
-                He liderado proyectos para empresas como Groupe Casino (Francia),
-                OBI (Alemania), La Comer (México) y Panamericana (Colombia),
+                He liderado proyectos para Groupe Casino (Francia), OBI
+                (Alemania), La Comer (México) y Panamericana (Colombia),
                 generando resultados medibles en crecimiento de ventas,
-                optimización de procesos y expansión de mercado.
+                expansión de mercado y optimización del pipeline comercial.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
               {[
-                { icon: Target, title: "Enfoque en Resultados", desc: "Estrategias basadas en datos con KPIs claros y ROI medible" },
-                { icon: TrendingUp, title: "Crecimiento Escalable", desc: "Soluciones diseñadas para crecer con tu negocio" },
-                { icon: Award, title: "Experiencia Global", desc: "Proyectos exitosos en 3 continentes con marcas líderes" },
+                { icon: Target, title: "Agentes de IA para B2B", desc: "Automatizo la calificación de prospectos con agentes de IA que trabajan 24/7 en el pipeline comercial" },
+                { icon: TrendingUp, title: "Demanda que Convierte", desc: "Estrategias de generación de demanda con KPIs claros, ROI medible y ciclos de venta más cortos" },
+                { icon: Award, title: "Experiencia Global", desc: "Proyectos exitosos en 3 continentes con marcas líderes en eCommerce y comercio B2B" },
               ].map((item) => (
                 <div key={item.title} className="text-center space-y-4">
                   <div className="icon-circle-lg bg-primary/10 mx-auto">

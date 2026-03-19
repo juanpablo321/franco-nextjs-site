@@ -13,9 +13,9 @@ import type { Metadata } from "next";
 import NewsletterForm from "@/components/NewsletterForm";
 
 export const metadata: Metadata = {
-  title: "Estrategia de Comercio Digital B2B | Juan Pablo Franco",
+  title: "Consultor en Comercio Electrónico B2B y B2C | Juan Pablo Franco",
   description:
-    "Consultoría en eCommerce B2B, implementación VTEX, marketplaces y estrategia omnicanal. Más de 15 años optimizando canales digitales para empresas B2B en Colombia y el mundo.",
+    "Consultoría en eCommerce B2B y B2C, implementación VTEX, marketplaces y estrategia omnicanal. Más de 15 años optimizando canales digitales para empresas en Colombia y el mundo.",
   alternates: {
     canonical: `${SITE_CONFIG.url}/servicios/estrategia-comercio-digital-b2b`,
   },
@@ -115,7 +115,7 @@ export default function EstrategiaComercioDigitalPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            name: "Estrategia de Comercio Digital B2B",
+            name: "Consultor en Comercio Electrónico B2B y B2C",
             description:
               "Consultoría en eCommerce B2B, implementación VTEX, marketplaces y estrategia omnicanal para empresas.",
             provider: {
@@ -140,7 +140,7 @@ export default function EstrategiaComercioDigitalPage() {
               ← Todos los servicios
             </Link>
             <h1 className="text-white mb-6">
-              Estrategia de Comercio Digital B2B
+              Consultor en Comercio Electrónico B2B y B2C
             </h1>
             <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
               Tu empresa B2B necesita un canal digital que realmente venda — no
