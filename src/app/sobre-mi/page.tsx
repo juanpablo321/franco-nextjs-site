@@ -12,9 +12,9 @@ import { SITE_CONFIG, EXPERIENCES, CLIENTS } from "@/lib/constants";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre Mí",
+  title: "Sobre Mí | Juan Pablo Franco",
   description:
-    "Conoce a Juan Pablo Franco, Estratega de Expansión Digital con más de 15 años transformando negocios a través del comercio electrónico en Colombia y el mundo.",
+    "Estratega de Comercio Digital e IA para B2B. Especialista en generación de demanda, calificación de prospectos con agentes de IA y expansión digital para empresas en Colombia y el mundo.",
   alternates: {
     canonical: `${SITE_CONFIG.url}/sobre-mi`,
   },
@@ -32,9 +32,9 @@ export default function SobreMiPage() {
             mainEntity: {
               "@type": "Person",
               name: "Juan Pablo Franco",
-              jobTitle: "Estratega de Expansión Digital",
+              jobTitle: "Estratega de Comercio Digital e IA para B2B",
               description:
-                "Más de 15 años de experiencia en eCommerce y transformación digital.",
+                "Especialista en generación de demanda B2B con agentes de IA, eCommerce y expansión digital. Más de 15 años de experiencia en Colombia y el mundo.",
               url: `${SITE_CONFIG.url}/sobre-mi`,
               sameAs: [SITE_CONFIG.linkedinUrl],
             },
@@ -49,8 +49,9 @@ export default function SobreMiPage() {
             <p className="section-label text-white/80 mb-4">Sobre Mí</p>
             <h1 className="text-white mb-6">Juan Pablo Franco</h1>
             <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
-              Estratega de Expansión Digital con más de 15 años transformando
-              negocios a través del comercio electrónico en Colombia y el mundo.
+              Estratega de Comercio Digital e IA para B2B — especializado en
+              generación de demanda y calificación de prospectos con agentes de
+              inteligencia artificial.
             </p>
           </div>
         </div>
@@ -72,19 +73,20 @@ export default function SobreMiPage() {
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold">
-                  Experto en Comercio Digital y Marketplaces
+                  Generación de Demanda B2B con Inteligencia Artificial
                 </h2>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  Con más de 15 años de experiencia en eCommerce y
-                  transformación digital, me especializo en implementaciones
-                  VTEX, desarrollo de marketplaces B2B y estrategias de
-                  generación de leads para empresas en Colombia y el mundo.
+                  Con más de 15 años en eCommerce y transformación digital,
+                  hoy me especializo en diseñar sistemas de generación de
+                  demanda que combinan agentes de IA con estrategias de
+                  comercio digital para calificar prospectos B2B con mayor
+                  velocidad y precisión.
                 </p>
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  He liderado proyectos para empresas como Groupe Casino (Francia),
-                  OBI (Alemania), La Comer (México) y Panamericana (Colombia),
+                  He liderado proyectos para Groupe Casino (Francia), OBI
+                  (Alemania), La Comer (México) y Panamericana (Colombia),
                   generando resultados medibles en crecimiento de ventas,
-                  optimización de procesos y expansión de mercado.
+                  expansión de mercado y optimización del pipeline comercial.
                 </p>
                 <div className="grid grid-cols-3 gap-4 pt-4">
                   {[
@@ -110,9 +112,9 @@ export default function SobreMiPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
               {[
-                { icon: Target, title: "Enfoque en Resultados", desc: "Estrategias basadas en datos con KPIs claros y ROI medible" },
-                { icon: TrendingUp, title: "Crecimiento Escalable", desc: "Soluciones diseñadas para crecer con tu negocio" },
-                { icon: Award, title: "Experiencia Global", desc: "Proyectos exitosos en 3 continentes con marcas líderes" },
+                { icon: Target, title: "Agentes de IA para B2B", desc: "Automatizo la calificación de prospectos con agentes de IA que trabajan 24/7 en el pipeline comercial" },
+                { icon: TrendingUp, title: "Demanda que Convierte", desc: "Estrategias de generación de demanda con KPIs claros, ROI medible y ciclos de venta más cortos" },
+                { icon: Award, title: "Experiencia Global", desc: "Proyectos exitosos en 3 continentes con marcas líderes en eCommerce y comercio B2B" },
               ].map((item) => (
                 <div key={item.title} className="text-center space-y-4">
                   <div className="icon-circle-lg bg-primary/10 mx-auto">
@@ -182,10 +184,11 @@ export default function SobreMiPage() {
       <section className="section-gray py-16">
         <div className="container">
           <div className="max-w-2xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl font-bold">¿Listo para trabajar juntos?</h2>
+            <h2 className="text-3xl font-bold">¿Listo para acelerar tu generación de demanda B2B?</h2>
             <p className="text-lg text-muted-foreground">
-              Agenda una consulta gratuita de 30 minutos para explorar cómo puedo
-              ayudarte a alcanzar tus objetivos de negocio digital.
+              Agenda una consulta gratuita de 30 minutos para explorar cómo los
+              agentes de IA pueden calificar tus prospectos y optimizar tu
+              pipeline comercial.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Link href="/#contacto" className="btn-primary">

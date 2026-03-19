@@ -98,12 +98,12 @@ export const SERVICES = [
 export const EXPERIENCES = [
   {
     period: "Enero 2022 - Actualidad",
-    title: "Product Manager · Solution Architect · Chief of Staff · Partner Success Manager",
+    title: "Generación de Demanda e IA · Product Manager · Solution Architect",
     company: "VTEX",
     achievements: [
+      "Diseño y opero sistemas de generación de demanda B2B usando agentes de IA para calificar prospectos, automatizar el nurturing y acortar el ciclo de ventas.",
       "Lidero el principal canal digital de generación de leads B2B de VTEX: vtex.com — ecosistema global de 16 sitios en 9 idiomas.",
       "Brindé soporte técnico en proyectos globales para clientes como Groupe Casino (Francia), OBI (Alemania) y BeautyCounter (EE. UU.).",
-      "Lideré la integración entre VTEX y el ERP legado de La Comer (México) en dominios críticos como catálogo, inventario, precios y medios de pago sobre AWS.",
       "Diseñé y ejecuté la estrategia de consolidación del ecosistema de partners implementadores en Colombia, Ecuador y Panamá.",
     ],
   },
