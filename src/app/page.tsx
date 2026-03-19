@@ -192,7 +192,13 @@ export default function HomePage() {
                       {IconComponent && <IconComponent className="w-6 h-6 text-primary" />}
                     </div>
                     <h3 className="text-2xl font-semibold">{service.title}</h3>
-                    <p className="text-muted-foreground">{service.description}</p>
+                    <p className="text-muted-foreground">
+                      {service.slug === "automatizacion-agentes-ia-mcp" ? (
+                        <>Conecto agentes de IA a tus sistemas empresariales vía <Link href="/glosario/mcp-servers-model-context-protocol" className="text-primary hover:underline font-medium">Model Context Protocol (MCP)</Link> para automatizar procesos y eliminar tareas manuales.</>
+                      ) : (
+                        service.description
+                      )}
+                    </p>
                     <ul className="space-y-2 text-base">
                       {service.features.map((feature) => (
                         <li key={feature} className="flex items-start gap-2">

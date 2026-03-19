@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import {
   Bot,
   ShoppingCart,
@@ -49,8 +50,7 @@ const SERVICES_DATA = [
     icon: Workflow,
     title: "Automatización con Agentes de IA y MCP",
     slug: "automatizacion-agentes-ia-mcp",
-    description:
-      "Conecto agentes de IA a tus sistemas empresariales vía Model Context Protocol (MCP) para automatizar procesos, eliminar tareas manuales y escalar operaciones.",
+    description: (<>Conecto agentes de IA a tus sistemas empresariales vía <Link href="/glosario/mcp-servers-model-context-protocol" className="text-primary hover:underline font-medium">Model Context Protocol (MCP)</Link> para automatizar procesos, eliminar tareas manuales y escalar operaciones.</>) as ReactNode,
     highlights: [
       "Agentes de IA conectados a CRM, ERP y APIs",
       "Integraciones MCP seguras y auditables",

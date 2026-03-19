@@ -181,7 +181,9 @@ export default function AutomatizacionAgentesIAPage() {
             </h1>
             <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
               Conecto agentes de inteligencia artificial a tus sistemas
-              empresariales mediante Model Context Protocol (MCP) para que la IA
+              empresariales mediante{" "}
+              <Link href="/glosario/mcp-servers-model-context-protocol" className="text-white underline underline-offset-4 hover:text-white/80 transition-colors">Model Context Protocol (MCP)</Link>
+              {" "}para que la IA
               no solo responda preguntas — sino que ejecute procesos reales
               dentro de tu negocio.
             </p>
@@ -368,7 +370,8 @@ export default function AutomatizacionAgentesIAPage() {
             </div>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
               <p>
-                MCP es un estándar abierto creado por Anthropic que permite a
+                <Link href="/glosario/mcp-servers-model-context-protocol" className="text-primary hover:underline font-medium">MCP</Link>
+                {" "}es un estándar abierto creado por Anthropic que permite a
                 los sistemas de IA conectarse de forma segura con herramientas
                 empresariales, bases de datos y APIs. Es el equivalente a lo que
                 las APIs fueron para la era cloud: el tejido conectivo que
@@ -387,6 +390,11 @@ export default function AutomatizacionAgentesIAPage() {
                 agentes con MCP no siguen reglas fijas: interpretan contexto,
                 toman decisiones y manejan excepciones. Es la diferencia entre
                 un semáforo y un conductor.
+              </p>
+              <p className="text-center">
+                <Link href="/glosario/mcp-servers-model-context-protocol" className="inline-flex items-center gap-2 text-primary font-medium hover:underline">
+                  Leer más sobre MCP Servers en el Glosario →
+                </Link>
               </p>
             </div>
           </div>
