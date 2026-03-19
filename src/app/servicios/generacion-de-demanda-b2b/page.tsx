@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Bot,
   Zap,
@@ -221,10 +222,24 @@ export default function GeneracionDemandaPage() {
               <p className="section-label text-primary mb-4">Proceso</p>
               <h2 className="text-3xl font-bold">Cómo funciona</h2>
               <p className="text-lg text-muted-foreground mt-4">
-                Un proceso claro en 4 etapas, desde el diagnóstico hasta la
-                optimización continua de tu pipeline.
+                Un ciclo continuo de 4 etapas que transforma tu pipeline
+                comercial: desde el diagnóstico inicial hasta la optimización
+                permanente con agentes de IA.
               </p>
             </div>
+
+            {/* Diagrama del ciclo */}
+            <div className="flex justify-center mb-16">
+              <Image
+                src="/images/ciclo-optimizacion-pipeline.svg"
+                alt="Ciclo de Optimización del Pipeline: Diagnóstico, Diseño de Agentes de IA, Implementación e Integración, Optimización Continua"
+                width={827}
+                height={621}
+                className="w-full max-w-2xl h-auto"
+                priority
+              />
+            </div>
+
             <div className="space-y-6">
               {PROCESS_STEPS.map((step) => (
                 <div key={step.step} className="card flex items-start gap-6">
