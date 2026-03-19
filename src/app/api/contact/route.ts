@@ -1,7 +1,7 @@
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+export const dynamic = 'force-dynamic';
 
 interface ContactFormData {
   name: string;
@@ -11,6 +11,7 @@ interface ContactFormData {
 }
 
 export async function POST(request: NextRequest) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const body: ContactFormData = await request.json();
 

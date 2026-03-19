@@ -4,6 +4,7 @@ import { Clock, ArrowRight } from "lucide-react";
 import { getAllArticles } from "@/lib/blog";
 import { SITE_CONFIG } from "@/lib/constants";
 import type { Metadata } from "next";
+import SearchBar from "@/components/SearchBar";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -50,6 +51,9 @@ export default function BlogPage() {
               Estrategias, tendencias y mejores prácticas en eCommerce,
               marketing B2B y transformación digital.
             </p>
+            <div className="mt-8">
+              <SearchBar />
+            </div>
           </div>
         </div>
       </section>

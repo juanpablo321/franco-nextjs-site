@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
+import SearchBar from "@/components/SearchBar";
 import {
   getAllGlossaryTerms,
   getGlossaryLetters,
@@ -58,6 +59,9 @@ export default function GlosarioPage() {
               eCommerce y transformación digital explicados de forma clara y
               práctica.
             </p>
+            <div className="mt-8">
+              <SearchBar />
+            </div>
           </div>
         </div>
       </section>
