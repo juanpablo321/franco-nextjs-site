@@ -16,6 +16,7 @@ import {
 import { SITE_CONFIG, SERVICES, STATS } from "@/lib/constants";
 import type { Metadata } from "next";
 import NewsletterForm from "@/components/NewsletterForm";
+import HeroAnimation from "@/components/HeroAnimation";
 
 export const metadata: Metadata = {
   title: "Juan Pablo Franco | Estratega de Comercio Digital y IA para B2B | Colombia",
@@ -97,44 +98,23 @@ export default function HomePage() {
         id="hero"
         className="min-h-screen relative overflow-hidden text-white section-purple"
       >
-        <div className="container relative z-10 flex items-end min-h-screen pt-20">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end w-full">
-            <div className="space-y-6 lg:space-y-8 pb-0 lg:pb-24 pt-20">
-              <h1 className="text-white text-center lg:text-left">
-                Estratega de Comercio Digital y IA para B2B
-              </h1>
-              <p className="text-lg md:text-2xl text-white/90 leading-relaxed text-center lg:text-left">
-                Diseño estrategias de expansión digital que combinan eCommerce,
-                marketplaces e inteligencia artificial para que tu empresa venda
-                más y mejor.
-              </p>
-              <div className="pt-4 pb-4 flex justify-center lg:justify-start">
-                <Link href="/#contacto" className="btn-outline text-lg px-8 py-4">
-                  Agendar Consultoría Gratuita
-                </Link>
-              </div>
-              <div className="lg:hidden flex justify-center pt-4">
-                <Image
-                  src={SITE_CONFIG.heroImage}
-                  alt="Expansión Digital B2B - eCommerce, Analytics y Crecimiento Global"
-                  width={320}
-                  height={480}
-                  priority
-                  className="w-auto object-contain object-bottom drop-shadow-2xl"
-                  style={{ height: "320px" }}
-                />
-              </div>
-            </div>
-            <div className="hidden lg:flex justify-end items-end self-end">
-              <Image
-                src={SITE_CONFIG.heroImage}
-                alt="Expansión Digital B2B - eCommerce, Analytics y Crecimiento Global"
-                width={600}
-                height={900}
-                priority
-                className="w-auto object-contain object-bottom drop-shadow-2xl"
-                style={{ height: "calc(100vh - 80px)", maxHeight: "900px" }}
-              />
+        {/* Background animation */}
+        <HeroAnimation />
+
+        <div className="container relative z-10 flex items-center min-h-screen pt-20">
+          <div className="max-w-3xl mx-auto lg:mx-0 space-y-6 lg:space-y-8 py-24 text-center lg:text-left">
+            <h1 className="text-white">
+              Estratega de Comercio Digital y IA para B2B
+            </h1>
+            <p className="text-lg md:text-2xl text-white/90 leading-relaxed">
+              Diseño estrategias de expansión digital que combinan eCommerce,
+              marketplaces e inteligencia artificial para que tu empresa venda
+              más y mejor.
+            </p>
+            <div className="pt-4 pb-4 flex justify-center lg:justify-start">
+              <Link href="/#contacto" className="btn-outline text-lg px-8 py-4">
+                Agendar Consultoría Gratuita
+              </Link>
             </div>
           </div>
         </div>
