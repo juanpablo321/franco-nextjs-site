@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   ShoppingCart,
   Layers,
@@ -215,7 +216,7 @@ export default function EstrategiaComercioDigitalPage() {
       {/* Process */}
       <section className="section-white section">
         <div className="container">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <p className="section-label text-primary mb-4">Proceso</p>
               <h2 className="text-3xl font-bold">Cómo funciona</h2>
@@ -224,6 +225,19 @@ export default function EstrategiaComercioDigitalPage() {
                 probado en más de 100 proyectos de eCommerce.
               </p>
             </div>
+
+            {/* Diagrama de transformación digital */}
+            <div className="flex justify-center mb-16">
+              <Image
+                src="/images/transformacion-comercio-digital.svg"
+                alt="Transformación Digital del Comercio Electrónico: Operación Digital Actual, Auditoría Digital, Diseño Estratégico, Implementación, Crecimiento Digital"
+                width={866}
+                height={522}
+                className="w-full max-w-3xl h-auto"
+                priority
+              />
+            </div>
+
             <div className="space-y-6">
               {PROCESS_STEPS.map((step) => (
                 <div key={step.step} className="card flex items-start gap-6">
