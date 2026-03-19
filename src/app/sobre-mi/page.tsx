@@ -63,13 +63,22 @@ export default function SobreMiPage() {
           <div className="max-w-4xl mx-auto space-y-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="flex justify-center">
-                <Image
-                  src={SITE_CONFIG.heroImage}
-                  alt="Juan Pablo Franco"
-                  width={500}
-                  height={500}
-                  className="w-auto max-h-[500px] object-contain rounded-lg drop-shadow-xl"
-                />
+                <div className="relative">
+                  {/* Decorative accent behind the photo */}
+                  <div className="absolute -inset-3 bg-gradient-to-br from-primary/20 via-primary/10 to-transparent rounded-2xl blur-sm" />
+                  <div className="relative">
+                    <Image
+                      src="/images/juan-pablo-franco.png"
+                      alt="Juan Pablo Franco — Estratega de Comercio Digital e IA para B2B"
+                      width={400}
+                      height={400}
+                      className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl ring-4 ring-white/80"
+                      priority
+                    />
+                    {/* Subtle gradient overlay at the bottom */}
+                    <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/10 via-transparent to-transparent" />
+                  </div>
+                </div>
               </div>
               <div className="space-y-6">
                 <h2 className="text-3xl font-bold">
