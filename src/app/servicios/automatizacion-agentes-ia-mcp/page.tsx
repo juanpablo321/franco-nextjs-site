@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   Workflow,
   Plug,
@@ -288,7 +289,7 @@ export default function AutomatizacionAgentesIAPage() {
       {/* Process */}
       <section className="section-gray section">
         <div className="container">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
               <p className="section-label text-primary mb-4">Proceso</p>
               <h2 className="text-3xl font-bold">Cómo funciona</h2>
@@ -297,6 +298,19 @@ export default function AutomatizacionAgentesIAPage() {
                 producción, conectados a tus sistemas vía MCP.
               </p>
             </div>
+
+            {/* Diagrama del proceso de automatización */}
+            <div className="flex justify-center mb-16">
+              <Image
+                src="/images/proceso-automatizacion-ia-mcp.svg"
+                alt="Proceso de Automatización con IA: Mapeo de Procesos, Diseño de Agentes e Integraciones MCP, Implementación y Conexión, Optimización y Escalamiento"
+                width={1050}
+                height={460}
+                className="w-full max-w-3xl h-auto"
+                priority
+              />
+            </div>
+
             <div className="space-y-6">
               {PROCESS_STEPS.map((step) => (
                 <div key={step.step} className="card flex items-start gap-6">
