@@ -64,7 +64,7 @@ export default function Header() {
       }`}
     >
       <div className="container">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center h-20 gap-8">
           {/* Logo */}
           <Link
             href="/"
@@ -78,7 +78,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8 ml-auto">
             {NAV_LINKS.map((link) => {
               const isActive =
                 pathname === link.href ||
@@ -121,7 +121,7 @@ export default function Header() {
           </nav>
 
           {/* Mobile Menu */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 ml-auto lg:ml-0">
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className={`lg:hidden p-2 transition-colors ${
