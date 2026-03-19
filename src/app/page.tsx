@@ -3,8 +3,8 @@ import Link from "next/link";
 import {
   ShoppingCart,
   Globe,
+  Bot,
   Target,
-  BarChart3,
   TrendingUp,
   Award,
   CheckCircle2,
@@ -12,6 +12,7 @@ import {
   MapPin,
   Linkedin,
   Phone,
+  ArrowRight,
 } from "lucide-react";
 import { SITE_CONFIG, SERVICES, STATS } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -28,12 +29,9 @@ export const metadata: Metadata = {
 };
 
 const iconMap: Record<string, React.ElementType> = {
+  Bot,
   ShoppingCart,
   Globe,
-  Target,
-  BarChart3,
-  TrendingUp,
-  Award,
 };
 
 export default function HomePage() {
@@ -76,7 +74,7 @@ export default function HomePage() {
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Juan Pablo Franco",
-              jobTitle: "Estratega de Expansión Digital",
+              jobTitle: "Estratega de Comercio Digital e IA para B2B",
               url: SITE_CONFIG.url,
               sameAs: [SITE_CONFIG.linkedinUrl],
               worksFor: {
@@ -182,13 +180,13 @@ export default function HomePage() {
         <div className="container">
           <div className="text-center mb-16">
             <p className="section-label text-primary mb-4">Servicios</p>
-            <h2>Soluciones de Comercio Digital</h2>
+            <h2>Comercio Digital e IA al Servicio de tu Crecimiento B2B</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {SERVICES.map((service) => {
               const IconComponent = iconMap[service.icon];
               return (
-                <article key={service.title} className="card">
+                <article key={service.title} className="card flex flex-col justify-between hover:shadow-lg transition-shadow">
                   <div className="space-y-4">
                     <div className="icon-circle bg-primary/10">
                       {IconComponent && <IconComponent className="w-6 h-6 text-primary" />}
@@ -204,9 +202,23 @@ export default function HomePage() {
                       ))}
                     </ul>
                   </div>
+                  <div className="pt-6">
+                    <Link
+                      href={`/servicios/${service.slug}`}
+                      className="inline-flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all"
+                    >
+                      Conocer más
+                      <ArrowRight size={18} />
+                    </Link>
+                  </div>
                 </article>
               );
             })}
+          </div>
+          <div className="text-center pt-12">
+            <Link href="/servicios" className="btn-primary text-lg">
+              Ver todos los servicios
+            </Link>
           </div>
         </div>
       </section>

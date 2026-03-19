@@ -20,7 +20,7 @@ export const SITE_CONFIG = {
 export const NAV_LINKS = [
   { label: "Inicio", href: "/" },
   { label: "Sobre Mí", href: "/sobre-mi" },
-  { label: "Servicios", href: "/#servicios" },
+  { label: "Servicios", href: "/servicios" },
   { label: "Blog", href: "/blog" },
   { label: "Glosario", href: "/glosario" },
   { label: "Contacto", href: "/contacto" },
@@ -28,69 +28,39 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
-    icon: "ShoppingCart",
-    title: "Consultoría eCommerce",
+    icon: "Bot",
+    title: "Generación de Demanda B2B con IA",
+    slug: "generacion-de-demanda-b2b",
     description:
-      "Implementación y optimización de plataformas de comercio electrónico para maximizar conversiones y mejorar la experiencia del usuario.",
+      "Diseño sistemas de agentes de IA que califican prospectos, automatizan el nurturing y acortan tu ciclo de ventas B2B.",
     features: [
-      "Auditoría y estrategia eCommerce",
-      "Implementación VTEX end-to-end",
-      "Optimización de conversiones",
+      "Agentes de IA que califican prospectos 24/7",
+      "Automatización inteligente del nurturing",
+      "Reducción medible del ciclo de ventas",
+    ],
+  },
+  {
+    icon: "ShoppingCart",
+    title: "Estrategia de Comercio Digital B2B",
+    slug: "estrategia-comercio-digital-b2b",
+    description:
+      "Consultoría en eCommerce, marketplaces e integración de canales digitales para que tu empresa B2B venda más y mejor.",
+    features: [
+      "Implementación y optimización VTEX",
+      "Estrategia omnicanal B2B",
+      "Optimización de conversiones y UX",
     ],
   },
   {
     icon: "Globe",
-    title: "Expansión Internacional de eCommerce",
+    title: "Expansión Digital Internacional",
+    slug: "expansion-digital-internacional",
     description:
-      "Estrategias de entrada a nuevos mercados, localización y adaptación cultural para llevar tu eCommerce B2B más allá de fronteras.",
+      "Estrategia de entrada a nuevos mercados digitales, localización y operaciones cross-border para tu eCommerce B2B.",
     features: [
       "Análisis de mercados internacionales",
       "Localización y adaptación cultural",
       "Logística y operaciones cross-border",
-    ],
-  },
-  {
-    icon: "Target",
-    title: "Generación de Leads B2B",
-    description:
-      "Estrategias de marketing digital y automatización para generar leads calificados y aumentar conversiones B2B.",
-    features: [
-      "Estrategia de contenido B2B",
-      "Marketing automation",
-      "Optimización de funnel de ventas",
-    ],
-  },
-  {
-    icon: "BarChart3",
-    title: "Análisis de Datos y BI",
-    description:
-      "Implementación de dashboards y análisis de datos para toma de decisiones basadas en métricas clave.",
-    features: [
-      "Dashboards personalizados",
-      "Análisis de comportamiento",
-      "Reportes de performance",
-    ],
-  },
-  {
-    icon: "TrendingUp",
-    title: "Estrategia Omnicanal",
-    description:
-      "Integración de canales online y offline para experiencia de cliente unificada y sin fricciones.",
-    features: [
-      "Integración de sistemas",
-      "Unified commerce",
-      "Customer journey mapping",
-    ],
-  },
-  {
-    icon: "Award",
-    title: "Transformación Digital",
-    description:
-      "Acompañamiento en procesos de digitalización empresarial y adopción de nuevas tecnologías.",
-    features: [
-      "Roadmap de digitalización",
-      "Change management",
-      "Capacitación de equipos",
     ],
   },
 ] as const;
